@@ -1,0 +1,21 @@
+{
+  "apiVersion": 2,
+  "name": "pgcsimplygalleryblock/masonry",
+  "title": "Masonry",
+  "description": "Display multiple images in an organized masonry gallery.",
+  "keywords": [
+    "images",
+    "photos",
+    "gallery",
+    "masonry",
+    "lightbox",
+    "youtube",
+    "vimeo"
+  ],
+  "textdomain": "simply-gallery-block",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "editorStyle": "pgc_sgb_masonry_style"
+}

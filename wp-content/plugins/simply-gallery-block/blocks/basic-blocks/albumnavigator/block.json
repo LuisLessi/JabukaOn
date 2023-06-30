@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "pgcsimplygalleryblock/albumnavigator",
+  "title": "Album Navigator",
+  "description": "Display SimpLy Album.",
+  "keywords": ["album", "simply", "galleries", "category"],
+  "textdomain": "simply-gallery-block",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "editorStyle": "pgc_sgb_albums_style"
+}

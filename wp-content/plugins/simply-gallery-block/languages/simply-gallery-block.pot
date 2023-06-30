@@ -1,0 +1,5470 @@
+# Copyright (C) 2023 GalleryCreator
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpLy Gallery Block & Lightbox 3.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sgb-global-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-19T08:08:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: simply-gallery-block\n"
+
+#. Plugin Name of the plugin
+msgid "SimpLy Gallery Block & Lightbox"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://simplygallery.co/"
+msgstr ""
+
+#. Description of the plugin
+msgid "The highly customizable Lightbox for native WordPress Gallery/Image. And beautiful gallery blocks with advanced Lightbox for photographers, video creators, writers and content marketers. This blocks set will help you create responsive Images, Video, Audio gallery. Three desired layout in one plugin - Masonry, Justified and Grid."
+msgstr ""
+
+#. Author of the plugin
+msgid "GalleryCreator"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://blockslib.com/"
+msgstr ""
+
+#: blocks/simply_dashboard_widget.php:59
+#: blocks/simply_widget.php:9
+#: blocks/simply_widget.php:69
+msgid "Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:195
+msgid "SimpLy Album EMPTY"
+msgstr ""
+
+#: blocks/simply_post.php:391
+msgid "SimpLy Albums"
+msgstr ""
+
+#: blocks/simply_post.php:392
+msgid "Album"
+msgstr ""
+
+#: blocks/simply_post.php:393
+msgid "Search Albums"
+msgstr ""
+
+#: blocks/simply_post.php:394
+msgid "All SimpLy Albums"
+msgstr ""
+
+#: blocks/simply_post.php:395
+msgid "View SunoLy Album"
+msgstr ""
+
+#: blocks/simply_post.php:396
+msgid "Parent Album"
+msgstr ""
+
+#: blocks/simply_post.php:397
+msgid "Parent Album:"
+msgstr ""
+
+#: blocks/simply_post.php:398
+msgid "Edit Album"
+msgstr ""
+
+#: blocks/simply_post.php:399
+msgid "Update Album"
+msgstr ""
+
+#: blocks/simply_post.php:400
+msgid "Add New Album"
+msgstr ""
+
+#: blocks/simply_post.php:401
+msgid "New Album Name"
+msgstr ""
+
+#: blocks/simply_post.php:402
+msgid "Albums"
+msgstr ""
+
+#: blocks/simply_post.php:431
+msgid "SimpLy Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:432
+msgid "Galleries"
+msgstr ""
+
+#: blocks/simply_post.php:433
+msgid "Add New"
+msgstr ""
+
+#: blocks/simply_post.php:434
+msgid "Add New SimpLy Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:435
+#: blocks/dist/dashboard.widget.build.js:1
+#: src/blocks/dashboard_widget/ItemView.js:19
+msgid "Edit Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:436
+msgid "View SimpLy Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:437
+msgid "Search SimpLy Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:438
+msgid "No Galleries Found"
+msgstr ""
+
+#: blocks/simply_post.php:439
+msgid "No Galleries Found in Trash"
+msgstr ""
+
+#: blocks/simply_post.php:440
+msgid "Parent Gallery"
+msgstr ""
+
+#: blocks/simply_post.php:441
+msgid "Filter Galleries list"
+msgstr ""
+
+#: blocks/simply_post.php:442
+msgid "Galleries list navigation"
+msgstr ""
+
+#: blocks/simply_post.php:443
+msgid "Galleries list"
+msgstr ""
+
+#: blocks/simply_post.php:493
+msgid "Show All"
+msgstr ""
+
+#: blocks/simply_post.php:519
+msgid "If you like, you may enter custom structures for your SimpLy gallery URLs here. For example, using <code>pgc_simply_gallery</code> would make your gallery links like <code>%spgc_simply_gallery/simply-gallery/</code>. This setting affects gallery URLs only."
+msgstr ""
+
+#: blocks/simply_post.php:534
+msgid "If you like, you may enter custom Archive page slug for your SimpLy galleries. For example, using <code>simply_galleries</code> would make your galleries archive links like <code>%ssimply_galleries/</code>. This setting affects gallery URLs only."
+msgstr ""
+
+#: blocks/simply_post.php:600
+msgid "SimpLy Gallery permalinks"
+msgstr ""
+
+#: blocks/simply_post.php:756
+msgid "You are using the legacy \"Classic Editor\" page builder. This makes visiting this page meaningless. Time to step forward and try the Block Editor!"
+msgstr ""
+
+#: blocks/simply_post.php:770
+msgid "The SimpLy Gallery Directory allows you to intelligently structure your media content. It will also allow you to easily manage the content of galleries that need frequent updates. Galleries from this directory can be easily used as WordPress Widgets, as well as added to third-party Page Builders (such as Elementor and others that support the Shortcodes system)."
+msgstr ""
+
+#: blocks/simply_post.php:779
+msgid "Name"
+msgstr ""
+
+#: blocks/simply_post.php:780
+#: blocks/simply_post.php:804
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/PluginInspector.js:18
+#: src/post_editor/PluginInspector.js:23
+msgid "Shortcode"
+msgstr ""
+
+#: blocks/simply_post.php:802
+msgid "Cover"
+msgstr ""
+
+#: blocks/simply_post.php:803
+#: blocks/simply_widget.php:64
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:208
+#: src/components/inspectors/ThumbnailsUniInspector.js:183
+#: src/components/ItemsManager.js:1869
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:42
+msgid "Title"
+msgstr ""
+
+#: blocks/simply_post.php:805
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:44
+msgid "Date"
+msgstr ""
+
+#: blocks/simply_posts_elementor_widget.php:69
+msgid "General"
+msgstr ""
+
+#: blocks/simply_posts_elementor_widget.php:77
+msgid "Select Gallery"
+msgstr ""
+
+#: blocks/simply_widget.php:11
+msgid "Place a SimpLy Gallery into a widgetized area."
+msgstr ""
+
+#: blocks/simply_widget.php:71
+msgid "Choose Gallery"
+msgstr ""
+
+#: plugins/init.php:188
+msgid "Albums Preset"
+msgstr ""
+
+#: plugins/init.php:248
+msgid "Blocks Presets - FREE"
+msgstr ""
+
+#: plugins/init.php:248
+msgid "Blocks Presets"
+msgstr ""
+
+#: plugins/init.php:366
+msgid "Lightbox for native WordPress Gallery"
+msgstr ""
+
+#: plugins/init.php:418
+msgid "FEATURES & FAQ"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/inspector.js:34
+msgid "Select Saved Gallery"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:173
+#: src/post_editor/blocks/galleryselector/components/edit.js:194
+#: src/post_editor/blocks/galleryselector/components/inspector.js:49
+msgid "Reload List"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:180
+#: src/post_editor/blocks/galleryselector/components/edit.js:201
+#: src/post_editor/blocks/galleryselector/components/inspector.js:56
+msgid "Create Gallery"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:99
+msgid "gallery is not available!"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:149
+msgid "Saved SimpLy Gallery"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:151
+msgid "* the selected gallery will be a mirror copy of the saved gallery and will automatically update after the original one."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:158
+msgid "Select a saved gallery"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/components/edit.js:188
+msgid "Your galleries directory is empty."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/index.js:15
+msgid "Display saved SimpLy Gallery."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/index.js:24
+#: src/post_editor/blocks/albumsStart/index.js:23
+#: src/post_editor/blocks/galleryselector/index.js:18
+msgid "galleries"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:49
+#: src/blocks/diamond_pim/index.js:49
+#: src/blocks/grid/index.js:50
+#: src/blocks/horizon_pim/index.js:49
+#: src/blocks/justified/index.js:53
+#: src/blocks/list_pim/index.js:60
+#: src/blocks/masonry/index.js:51
+#: src/blocks/portfolio2_pim/index.js:57
+#: src/blocks/portfolio_pim/index.js:61
+#: src/blocks/showcase_pim/index.js:49
+#: src/blocks/slider/index.js:50
+#: src/blocks/splitcarousel_pim/index.js:49
+#: src/blocks/tagsBox_pim/index.js:59
+#: src/blocks/viewer/index.js:52
+#: src/post_editor/blocks/galleryselector/index.js:19
+msgid "gallery"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/galleryselector/index.js:20
+msgid "shortcode"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/GlobalAlbumToolbar.js:47
+msgid "Reload Album"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/EditAlbums.js:312
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:355
+msgid "Select Album"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/EditAlbums.js:389
+msgid "galleries unavailable!"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1324
+#: src/post_editor/blocks/albums_components/EditAlbums.js:437
+msgid "Change Gallery Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/EditAlbums.js:457
+msgid "SimpLy Album"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/EditAlbums.js:459
+msgid "* Album is a collection of galleries"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/EditAlbums.js:470
+msgid "Get Albums"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:16
+msgid "Share link to"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:18
+msgid "Item"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:19
+msgid "Post"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:49
+#: src/components/inspectors/ShareBarInspector.js:26
+msgid "Overlap Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:31
+msgid "Icon Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:36
+msgid "Icon Color on Hover"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:41
+msgid "Enable Facebook"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:48
+msgid "Enable Twitter"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:55
+msgid "Enable Pinterest"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:62
+#: src/components/inspectors/ViewerInspectorSlider.js:309
+msgid "Enable Download"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShareBarInspector.js:69
+msgid "Show Copy Link"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:19
+msgid "inside"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:20
+msgid "open post _self"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:21
+msgid "open post _blank"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:30
+msgid "Gallery opening method"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:38
+msgid "Sort galleries by"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:41
+msgid "ID"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:43
+msgid "Modified"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1885
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:52
+msgid "Order Direction"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/viewer/components/inspector.js:108
+#: src/components/inspectors/GalleryInspector.js:45
+#: src/options_page/PluginSettingsPage.js:935
+#: src/post_editor/blocks/albums_components/InspectorGalleriesManager.js:65
+msgid "DeepLinking - сreate unique URLs for this gallery."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:382
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:198
+msgid "Your changes were not saved. Do you want to lose those changes?"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:275
+msgid "Preset Apply / Edit"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:601
+#: src/options_albums_page/AlbumsSettingsPage.js:738
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:321
+msgid "Save as New Preset"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:341
+msgid "Update Current Preset"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:347
+msgid "Album Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:366
+msgid "Reload Albums List"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:373
+msgid "Use Preset"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:402
+msgid "Galleries - Manager"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/viewer/components/inspector.js:135
+#: src/components/inspectors/BlocksInspector.js:439
+#: src/options_albums_page/AlbumsSettingsPage.js:641
+#: src/options_albums_page/AlbumsSettingsPage.js:804
+#: src/options_page/PluginSettingsPage.js:521
+#: src/options_page/PluginSettingsPage.js:632
+#: src/options_page/PluginSettingsPage.js:743
+#: src/options_page/PluginSettingsPage.js:854
+#: src/options_page/PluginSettingsPage.js:959
+#: src/option_page_pim/PluginPimSettingsPage.js:839
+#: src/option_page_pim/PluginPimSettingsPage.js:950
+#: src/option_page_pim/PluginPimSettingsPage.js:1061
+#: src/option_page_pim/PluginPimSettingsPage.js:1170
+#: src/option_page_pim/PluginPimSettingsPage.js:1281
+#: src/option_page_pim/PluginPimSettingsPage.js:1379
+#: src/option_page_pim/PluginPimSettingsPage.js:1477
+#: src/option_page_pim/PluginPimSettingsPage.js:1575
+#: src/option_page_pim/PluginPimSettingsPage.js:1686
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:417
+msgid "Share Bar Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/viewer/components/inspector.js:146
+#: src/components/inspectors/BlocksInspector.js:450
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:428
+msgid "Reset to default - Share Bar"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/BlocksInspector.js:461
+#: src/components/inspectors/BlocksInspectorBase.js:363
+#: src/options_albums_page/AlbumsSettingsPage.js:666
+#: src/options_albums_page/AlbumsSettingsPage.js:829
+#: src/options_page/PluginSettingsPage.js:549
+#: src/options_page/PluginSettingsPage.js:660
+#: src/options_page/PluginSettingsPage.js:771
+#: src/options_page/PluginSettingsPage.js:882
+#: src/options_page/PluginSettingsPage.js:998
+#: src/option_page_pim/PluginPimSettingsPage.js:867
+#: src/option_page_pim/PluginPimSettingsPage.js:978
+#: src/option_page_pim/PluginPimSettingsPage.js:1087
+#: src/option_page_pim/PluginPimSettingsPage.js:1198
+#: src/option_page_pim/PluginPimSettingsPage.js:1309
+#: src/option_page_pim/PluginPimSettingsPage.js:1407
+#: src/option_page_pim/PluginPimSettingsPage.js:1505
+#: src/option_page_pim/PluginPimSettingsPage.js:1603
+#: src/option_page_pim/PluginPimSettingsPage.js:1714
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:436
+msgid "Custom CSS"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:467
+#: src/components/inspectors/BlocksInspectorBase.js:369
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:442
+msgid "Add your own CSS code here to customise the appearance and layout of current gallery."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/BlocksInspector.js:468
+#: src/components/inspectors/BlocksInspectorBase.js:370
+#: src/options_albums_page/AlbumsSettingsPage.js:676
+#: src/options_albums_page/AlbumsSettingsPage.js:839
+#: src/options_page/PluginSettingsPage.js:561
+#: src/options_page/PluginSettingsPage.js:672
+#: src/options_page/PluginSettingsPage.js:783
+#: src/options_page/PluginSettingsPage.js:894
+#: src/options_page/PluginSettingsPage.js:1010
+#: src/option_page_pim/PluginPimSettingsPage.js:879
+#: src/option_page_pim/PluginPimSettingsPage.js:990
+#: src/option_page_pim/PluginPimSettingsPage.js:1099
+#: src/option_page_pim/PluginPimSettingsPage.js:1210
+#: src/option_page_pim/PluginPimSettingsPage.js:1321
+#: src/option_page_pim/PluginPimSettingsPage.js:1419
+#: src/option_page_pim/PluginPimSettingsPage.js:1517
+#: src/option_page_pim/PluginPimSettingsPage.js:1615
+#: src/option_page_pim/PluginPimSettingsPage.js:1726
+#: src/post_editor/blocks/albums_components/InspectorAlbum.js:443
+msgid "Don't use IDs in selectors! If You entered a valid CSS, then the gallery ID will be added automatically to the selectors."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:25
+#: src/components/inspectors/LightboxInspectorD.js:25
+#: src/components/inspectors/ViewerInspectorSlider.js:40
+msgid "Items Transition Type"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:27
+#: src/components/inspectors/LightboxInspectorD.js:27
+#: src/components/inspectors/SliderInspectorOptions.js:57
+#: src/components/inspectors/ViewerInspectorSlider.js:42
+msgid "Slipping"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:28
+#: src/components/inspectors/LightboxInspectorD.js:28
+#: src/components/inspectors/SliderInspectorOptions.js:58
+#: src/components/inspectors/ViewerInspectorSlider.js:43
+msgid "Fading"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:35
+#: src/components/inspectors/LightboxInspectorD.js:35
+#: src/components/inspectors/ViewerInspectorSlider.js:51
+msgid "Display Image in original Size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:40
+#: src/components/inspectors/LightboxInspectorD.js:40
+#: src/components/inspectors/ViewerInspectorSlider.js:56
+msgid "This mode can significantly reduce performance and increase Internet traffic."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:44
+#: src/components/inspectors/LightboxInspectorD.js:51
+msgid "Scroll to navigate (mouse wheel)"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:52
+#: src/components/inspectors/LightboxInspectorD.js:59
+msgid "Scroll down the page for the item you viewed"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:64
+#: src/components/inspectors/LightboxInspectorD.js:71
+#: src/components/inspectors/ViewerInspectorSlider.js:72
+msgid "Autoplay Video"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:79
+#: src/components/inspectors/LightboxInspectorD.js:86
+#: src/components/inspectors/ViewerInspectorSlider.js:87
+msgid "Try playing the next video."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:81
+#: src/components/inspectors/LightboxInspectorD.js:88
+#: src/components/inspectors/ViewerInspectorSlider.js:89
+msgid "Present gallery as video playlist"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:92
+#: src/components/inspectors/LightboxInspectorD.js:100
+#: src/components/inspectors/ViewerInspectorSlider.js:101
+msgid "Loop Video"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:102
+#: src/components/inspectors/LightboxInspectorD.js:110
+#: src/components/inspectors/ViewerInspectorSlider.js:112
+msgid "Prevent downloading"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:107
+#: src/components/inspectors/LightboxInspectorD.js:115
+#: src/components/inspectors/ViewerInspectorSlider.js:117
+msgid "Disable right click to protect content from download"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:111
+#: src/components/inspectors/LightboxInspectorD.js:119
+#: src/components/inspectors/ViewerInspectorSlider.js:121
+msgid "Copyright Alert (right mouse click)"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:118
+#: src/components/inspectors/LightboxInspectorD.js:126
+msgid "Lightbox background color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:54
+#: src/components/inspectors/LightboxInspector.js:123
+#: src/components/inspectors/LightboxInspectorD.js:131
+#: src/components/inspectors/ViewerInspectorSlider.js:133
+msgid "Preloader Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxInspector.js:128
+#: src/components/inspectors/ViewerInspectorSlider.js:138
+msgid "Lightbox Header & Footer color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:133
+#: src/components/inspectors/LightboxInspectorD.js:136
+#: src/components/inspectors/ShowcaseInspector.js:52
+#: src/components/inspectors/ViewerInspectorSlider.js:143
+msgid "Main Controls - BG Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:138
+#: src/components/inspectors/LightboxInspectorD.js:141
+#: src/components/inspectors/ShowcaseInspector.js:57
+#: src/components/inspectors/ViewerInspectorSlider.js:148
+msgid "Main Controls - Hover BG Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:143
+#: src/components/inspectors/LightboxInspectorD.js:146
+#: src/components/inspectors/ShowcaseInspector.js:62
+#: src/components/inspectors/ViewerInspectorSlider.js:153
+msgid "Main Controls - Icon Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:148
+#: src/components/inspectors/LightboxInspectorD.js:151
+#: src/components/inspectors/ShowcaseInspector.js:67
+#: src/components/inspectors/ViewerInspectorSlider.js:158
+msgid "Main Controls - Icon Hover Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:153
+#: src/components/inspectors/LightboxInspectorD.js:234
+#: src/components/inspectors/ViewerInspectorSlider.js:222
+msgid "Show Items Counter"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:161
+#: src/components/inspectors/LightboxInspectorD.js:242
+#: src/components/inspectors/ViewerInspectorSlider.js:230
+msgid "Items Counter Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:167
+#: src/components/inspectors/LightboxInspectorD.js:248
+#: src/components/inspectors/ViewerInspectorSlider.js:241
+msgid "Show Slideshow Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:174
+#: src/components/inspectors/LightboxInspectorD.js:255
+#: src/components/inspectors/ViewerInspectorSlider.js:257
+msgid "Slideshows Timer"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxInspector.js:182
+msgid "Slideshow Indicator Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxInspector.js:187
+msgid "Slideshow Indicator Bg Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:195
+#: src/components/inspectors/LightboxInspectorD.js:190
+#: src/components/inspectors/ViewerInspectorSlider.js:178
+msgid "Show Item Caption"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:105
+#: src/components/inspectors/CarouselInspector.js:64
+#: src/components/inspectors/LightboxInspector.js:205
+#: src/components/inspectors/LightboxInspectorD.js:200
+#: src/components/inspectors/ListInspector.js:123
+#: src/components/inspectors/Portfolio2Inspector.js:204
+#: src/components/inspectors/PortfolioInspector.js:201
+#: src/components/inspectors/ViewerInspectorSlider.js:188
+msgid "Source for Item caption"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:107
+#: src/components/inspectors/CarouselInspector.js:66
+#: src/components/inspectors/LightboxInspector.js:207
+#: src/components/inspectors/LightboxInspectorD.js:202
+#: src/components/inspectors/ListInspector.js:125
+#: src/components/inspectors/Portfolio2Inspector.js:206
+#: src/components/inspectors/PortfolioInspector.js:203
+#: src/components/inspectors/ThumbnailsUniInspector.js:182
+#: src/components/inspectors/ViewerInspectorSlider.js:190
+#: src/components/ItemsManager.js:1870
+msgid "Caption"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:109
+#: src/components/inspectors/CarouselInspector.js:68
+#: src/components/inspectors/LightboxInspector.js:209
+#: src/components/inspectors/LightboxInspectorD.js:204
+#: src/components/inspectors/ListInspector.js:127
+#: src/components/inspectors/Portfolio2Inspector.js:208
+#: src/components/inspectors/PortfolioInspector.js:205
+#: src/components/inspectors/ThumbnailsUniInspector.js:184
+#: src/components/inspectors/ViewerInspectorSlider.js:192
+msgid "Alt"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:218
+#: src/components/inspectors/ThumbnailsUniInspector.js:192
+msgid "Font size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:226
+#: src/components/inspectors/ThumbnailsUniInspector.js:202
+msgid "Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:234
+#: src/components/inspectors/LightboxInspectorD.js:276
+#: src/components/inspectors/SliderInspectorOptions.js:141
+#: src/components/inspectors/ViewerThumbnailsInspector.js:34
+msgid "Show Thumbnails Bar"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:243
+#: src/components/inspectors/LightboxInspectorD.js:285
+#: src/components/inspectors/SliderInspectorOptions.js:152
+#: src/components/inspectors/ViewerThumbnailsInspector.js:168
+msgid "Thumbnails Border Color (select mode)"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:251
+#: src/components/inspectors/LightboxInspectorD.js:293
+#: src/components/inspectors/ViewerInspectorSlider.js:283
+msgid "Enable Zooom"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:258
+#: src/components/inspectors/LightboxInspectorD.js:300
+#: src/components/inspectors/ViewerInspectorSlider.js:316
+msgid "Show Share Buttons"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:265
+#: src/components/inspectors/LightboxInspectorD.js:307
+msgid "Show Fullscreen Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:272
+#: src/components/inspectors/LightboxInspectorD.js:314
+#: src/components/inspectors/ViewerInspectorSlider.js:330
+msgid "Submenu button color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:279
+#: src/components/inspectors/LightboxInspectorD.js:321
+#: src/components/inspectors/ViewerInspectorSlider.js:337
+msgid "Submenu button Hover color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:286
+#: src/components/inspectors/LightboxInspectorD.js:328
+#: src/components/inspectors/ViewerInspectorSlider.js:344
+msgid "Submenu button Icon color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspector.js:291
+#: src/components/inspectors/LightboxInspectorD.js:333
+#: src/components/inspectors/ViewerInspectorSlider.js:351
+msgid "Submenu button Icon Hover color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:42
+#: src/components/inspectors/GridInspector.js:16
+#: src/components/inspectors/MasonryInspector.js:17
+#: src/components/inspectors/Portfolio2Inspector.js:32
+#: src/components/inspectors/PortfolioInspector.js:29
+#: src/components/inspectors/TagsBoxInspector.js:18
+#: src/components/inspectors/ViewerThumbnailsInspector.js:52
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:17
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:17
+msgid "Columns"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:50
+#: src/components/inspectors/GridInspector.js:24
+#: src/components/inspectors/MasonryInspector.js:25
+#: src/components/inspectors/Portfolio2Inspector.js:48
+#: src/components/inspectors/PortfolioInspector.js:45
+#: src/components/inspectors/SliderInspector.js:15
+#: src/components/inspectors/TagsBoxInspector.js:26
+#: src/components/inspectors/ViewerThumbnailsInspector.js:68
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:31
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:31
+msgid "Select Min Thumbnail Width (px)."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:113
+#: src/components/inspectors/GridInspector.js:87
+#: src/components/inspectors/MasonryInspector.js:88
+#: src/components/inspectors/Portfolio2Inspector.js:111
+#: src/components/inspectors/PortfolioInspector.js:108
+#: src/components/inspectors/TagsBoxInspector.js:89
+#: src/components/inspectors/ViewerThumbnailsInspector.js:121
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:84
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:84
+msgid "* Actual for mobile devices"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:87
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:87
+msgid "Size ratio. Height / Width = Ratio."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:116
+#: src/components/inspectors/Portfolio2Inspector.js:115
+#: src/components/inspectors/PortfolioInspector.js:112
+#: src/components/inspectors/TagsBoxInspector.js:100
+#: src/components/inspectors/ThumbnailsUniInspector.js:45
+#: src/components/inspectors/ViewerThumbnailsInspector.js:125
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:95
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:95
+msgid "Space between thumbnails"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:197
+#: src/components/inspectors/DiamondInspector.js:124
+#: src/components/inspectors/HorizonInspector.js:89
+#: src/components/inspectors/ListInspector.js:60
+#: src/components/inspectors/Portfolio2Inspector.js:148
+#: src/components/inspectors/PortfolioInspector.js:145
+#: src/components/inspectors/TagsBoxInspector.js:108
+#: src/components/inspectors/ThumbnailsUniInspector.js:78
+#: src/components/inspectors/ViewerThumbnailsInspector.js:158
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:103
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:103
+msgid "Rounded Corners"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:115
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:115
+msgid "Cover Background Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:122
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:122
+msgid "Cover Overlay Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:129
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:129
+msgid "Show Gallery Title"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:76
+#: src/components/inspectors/CarouselInspector.js:35
+#: src/components/inspectors/ListInspector.js:87
+#: src/components/inspectors/Portfolio2Inspector.js:175
+#: src/components/inspectors/PortfolioInspector.js:172
+#: src/components/inspectors/TagsBoxInspector.js:128
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:136
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:136
+msgid "Title Font size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:86
+#: src/components/inspectors/CarouselInspector.js:45
+#: src/components/inspectors/ListInspector.js:97
+#: src/components/inspectors/Portfolio2Inspector.js:185
+#: src/components/inspectors/PortfolioInspector.js:182
+#: src/components/inspectors/TagsBoxInspector.js:138
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:146
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:146
+msgid "Title Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:155
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:155
+msgid "Show Tip Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:162
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:162
+msgid "Tip Button - Default Label Text"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:167
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:167
+msgid "Tip Button - Font Size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:177
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:177
+msgid "Tip Button - Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/blockInspector.js:184
+#: src/post_editor/blocks/albumsStart/components/blockInspector.js:184
+msgid "Tip Button - Background Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:629
+#: src/options_albums_page/AlbumsSettingsPage.js:766
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:40
+#: src/post_editor/blocks/albumsStart/components/inspector.js:34
+msgid "Covers Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:53
+#: src/post_editor/blocks/albumsStart/components/inspector.js:47
+msgid "Reset to default - Covers Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/accordion_pim/components/inspector.js:52
+#: src/blocks/diamond_pim/components/inspector.js:52
+#: src/blocks/grid/components/inspector.js:76
+#: src/blocks/horizon_pim/components/inspector.js:56
+#: src/blocks/justified/components/inspector.js:81
+#: src/blocks/list_pim/components/inspector.js:76
+#: src/blocks/masonry/components/inspector.js:76
+#: src/blocks/portfolio2_pim/components/inspector.js:76
+#: src/blocks/portfolio_pim/components/inspector.js:76
+#: src/blocks/showcase_pim/components/inspector.js:80
+#: src/blocks/slider/components/inspector.js:78
+#: src/blocks/splitcarousel_pim/components/inspector.js:78
+#: src/blocks/tagsBox_pim/components/inspector.js:78
+#: src/components/inspectors/LightboxPluginInspector.js:58
+#: src/options_albums_page/AlbumsSettingsPage.js:654
+#: src/options_albums_page/AlbumsSettingsPage.js:817
+#: src/options_page/LightboxSettingsPage.js:352
+#: src/options_page/PluginSettingsPage.js:535
+#: src/options_page/PluginSettingsPage.js:646
+#: src/options_page/PluginSettingsPage.js:757
+#: src/options_page/PluginSettingsPage.js:868
+#: src/option_page_pim/PluginPimSettingsPage.js:853
+#: src/option_page_pim/PluginPimSettingsPage.js:964
+#: src/option_page_pim/PluginPimSettingsPage.js:1074
+#: src/option_page_pim/PluginPimSettingsPage.js:1184
+#: src/option_page_pim/PluginPimSettingsPage.js:1295
+#: src/option_page_pim/PluginPimSettingsPage.js:1393
+#: src/option_page_pim/PluginPimSettingsPage.js:1491
+#: src/option_page_pim/PluginPimSettingsPage.js:1589
+#: src/option_page_pim/PluginPimSettingsPage.js:1700
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:101
+#: src/post_editor/blocks/albumsStart/components/inspector.js:58
+msgid "Lightbox Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/components/inspector.js:63
+#: src/blocks/diamond_pim/components/inspector.js:63
+#: src/blocks/grid/components/inspector.js:87
+#: src/blocks/horizon_pim/components/inspector.js:67
+#: src/blocks/justified/components/inspector.js:92
+#: src/blocks/list_pim/components/inspector.js:87
+#: src/blocks/masonry/components/inspector.js:87
+#: src/blocks/portfolio2_pim/components/inspector.js:87
+#: src/blocks/portfolio_pim/components/inspector.js:87
+#: src/blocks/showcase_pim/components/inspector.js:91
+#: src/blocks/slider/components/inspector.js:89
+#: src/blocks/splitcarousel_pim/components/inspector.js:89
+#: src/blocks/tagsBox_pim/components/inspector.js:89
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:112
+#: src/post_editor/blocks/albumsStart/components/inspector.js:69
+msgid "Reset to default - Lightbox"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/index.js:20
+#: src/post_editor/blocks/albumsStart/index.js:19
+msgid "Display SimpLy Album."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/index.js:23
+#: src/post_editor/blocks/albumsStart/index.js:22
+msgid "simply"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/index.js:25
+#: src/post_editor/blocks/albumsStart/index.js:24
+msgid "category"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/index.js:26
+#: src/post_editor/blocks/albumsStart/index.js:25
+msgid "album"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:17
+#: src/components/inspectors/TagsFilterPimInspector.js:73
+msgid "Enable Tags Filter"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:24
+msgid "Text for filter button \"All\""
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:29
+#: src/components/inspectors/TagsFilterPimInspector.js:130
+msgid "Tag Background Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:34
+#: src/components/inspectors/TagsFilterPimInspector.js:135
+msgid "Tag Background Hover Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:39
+#: src/components/inspectors/TagsFilterPimInspector.js:140
+msgid "Tag Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:44
+#: src/components/inspectors/TagsFilterPimInspector.js:145
+msgid "Tag Text Hover Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterInspector.js:49
+#: src/components/inspectors/TagsFilterPimInspector.js:150
+msgid "Tag Text Font Size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:95
+#: src/components/inspectors/GalleryModalInspector.js:20
+msgid "Items Click Action"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/plugin.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:97
+#: src/components/inspectors/GalleryModalInspector.js:22
+#: src/plugins/lightbox/index.js:238
+msgid "Lightbox"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:98
+#: src/components/inspectors/GalleryModalInspector.js:23
+msgid "Attachment Page"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:99
+#: src/components/inspectors/GalleryModalInspector.js:24
+msgid "None"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:136
+#: src/components/inspectors/GalleryModalInspector.js:32
+#: src/components/inspectors/PortfolioInspector.js:273
+#: src/components/inspectors/ThumbnailsUniInspector.js:224
+msgid "Show Share Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:59
+msgid "Info Bar Color - Header"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:64
+msgid "Info Bar Title text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:69
+msgid "Title Font Size (px)"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:77
+msgid "Controls BG Color - Header Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:82
+msgid "Controls Hover BG Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:87
+msgid "Controls Icon Color - Header Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/components/inspectors/GalleryModalInspector.js:92
+msgid "Controls Icon Hover Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:44
+#: src/components/inspectors/ViewerInspectorSlider.js:61
+msgid "Carousel mode"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:156
+msgid "Caption bar background color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:69
+#: src/components/inspectors/CarouselInspector.js:28
+#: src/components/inspectors/LightboxInspectorD.js:161
+#: src/components/inspectors/ListInspector.js:80
+#: src/components/inspectors/Portfolio2Inspector.js:168
+#: src/components/inspectors/PortfolioInspector.js:165
+msgid "Show Item Title"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:170
+#: src/components/inspectors/ViewerInspectorSlider.js:164
+msgid "Title - Font size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:178
+#: src/components/inspectors/ViewerInspectorSlider.js:172
+msgid "Title - Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:108
+#: src/components/inspectors/CarouselInspector.js:67
+#: src/components/inspectors/LightboxInspectorD.js:203
+#: src/components/inspectors/ListInspector.js:126
+#: src/components/inspectors/Portfolio2Inspector.js:207
+#: src/components/inspectors/PortfolioInspector.js:204
+#: src/components/inspectors/ViewerInspectorSlider.js:191
+msgid "Description"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:213
+#: src/components/inspectors/ViewerInspectorSlider.js:201
+msgid "Caption - Font size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:223
+#: src/components/inspectors/ViewerInspectorSlider.js:211
+msgid "Caption - Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:263
+#: src/components/inspectors/ViewerInspectorSlider.js:265
+msgid "Slideshow - Progress Bar Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/LightboxInspectorD.js:268
+#: src/components/inspectors/ViewerInspectorSlider.js:272
+msgid "Slideshow - Progress Bar BG Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:29
+msgid "Showing captions for each media item."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:32
+msgid "Toggle to show media captions."
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:86
+msgid "Info Bar horizontal align"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:91
+msgid "Top"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:112
+msgid "Bottom"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:137
+#: src/components/inspectors/CarouselInspector.js:96
+#: src/components/inspectors/ListInspector.js:162
+#: src/components/inspectors/Portfolio2Inspector.js:236
+#: src/components/inspectors/PortfolioInspector.js:233
+#: src/components/inspectors/ThumbnailsUniInspector.js:132
+msgid "Show Link Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:140
+#: src/components/inspectors/CarouselInspector.js:99
+#: src/components/inspectors/ListInspector.js:165
+#: src/components/inspectors/Portfolio2Inspector.js:239
+#: src/components/inspectors/PortfolioInspector.js:236
+#: src/components/inspectors/ThumbnailsUniInspector.js:135
+msgid "Optional. Add a unique link to any gallery item"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:145
+#: src/components/inspectors/CarouselInspector.js:104
+#: src/components/inspectors/ListInspector.js:170
+#: src/components/inspectors/Portfolio2Inspector.js:244
+#: src/components/inspectors/PortfolioInspector.js:241
+#: src/components/inspectors/ThumbnailsUniInspector.js:140
+msgid "Link Button - Default Label Text"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:150
+#: src/components/inspectors/CarouselInspector.js:109
+#: src/components/inspectors/ListInspector.js:175
+#: src/components/inspectors/Portfolio2Inspector.js:249
+#: src/components/inspectors/PortfolioInspector.js:246
+#: src/components/inspectors/ThumbnailsUniInspector.js:145
+msgid "Link Button - Font Size"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:185
+#: src/components/inspectors/PortfolioInspector.js:256
+#: src/components/inspectors/ThumbnailsUniInspector.js:155
+msgid "Link Button - Text Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:192
+#: src/components/inspectors/PortfolioInspector.js:263
+#: src/components/inspectors/ThumbnailsUniInspector.js:162
+msgid "Link Button - Background Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:172
+msgid "Show thumbnails Captions"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:180
+msgid "Source for Tumbnails caption"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:209
+msgid "Text Background Color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ThumbnailsUniInspector.js:219
+#: src/components/inspectors/ViewerThumbnailsInspector.js:175
+msgid "Thumbnails hover color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:280
+#: src/components/inspectors/ThumbnailsUniInspector.js:231
+msgid "Show Download Button"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:291
+#: src/components/inspectors/ThumbnailsUniInspector.js:242
+msgid "SubMenu button background color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:298
+#: src/components/inspectors/ThumbnailsUniInspector.js:249
+msgid "SubMenu button background color - Hover"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:305
+#: src/components/inspectors/ThumbnailsUniInspector.js:256
+msgid "SubMenu button icon color"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:312
+#: src/components/inspectors/ThumbnailsUniInspector.js:263
+msgid "SubMenu button icon color - Hover"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:778
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:58
+msgid "Gallery Modal Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:71
+msgid "Reset to default - Modal Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:791
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:76
+msgid "Gallery Layout Settings"
+msgstr ""
+
+#: blocks/dist/blocks/blocks.build.js:1
+#: src/post_editor/blocks/albumNavigator/components/inspector.js:89
+msgid "Reset to default - Layout Settings"
+msgstr ""
+
+#: blocks/dist/dashboard.widget.build.js:1
+#: src/blocks/dashboard_widget/ItemView.js:35
+msgid "Copy Shortcode to Clipboard"
+msgstr ""
+
+#: blocks/dist/dashboard.widget.build.js:1
+#: src/blocks/dashboard_widget/MetaBoxDashboardInspector.js:146
+msgid "Create New Gallery"
+msgstr ""
+
+#: blocks/dist/dashboard.widget.build.js:1
+#: src/blocks/dashboard_widget/MetaBoxDashboardInspector.js:167
+msgid "You have no published galleries."
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:32
+msgid "Shortcode copied to clipboard."
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:20
+msgid "Cannot copy Shortcode."
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:66
+msgid "Welcome!"
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:67
+msgid "The Shortcode is designed to transfer (clone) this gallery to various places (posts, pages, sitebars, footers, etc.) on your site. Also, the shortcode can be used to add a gallery when using third-party Page Builders (which have a shortcode widget)."
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:71
+msgid "Please add a Gallery Block using the \"Plus\" button. And then publish this post!"
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:76
+msgid "For the Shortcode to work correctly, we strongly recommend that you publish only one Gallery in this post."
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:83
+msgid "The shortcode for this gallery is ready:"
+msgstr ""
+
+#: blocks/dist/post.editor.build.js:1
+#: src/post_editor/ShortcodeInspector.js:98
+msgid "Using a short code with Slug is a risk of losing the gallery when editing the Slug for SimpLy Gallery post!"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:398
+msgid "Are you sure you want to delete this preset?"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:476
+#: src/options_albums_page/AlbumsSettingsPage.js:516
+msgid "Albums Presets"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:482
+#: src/options_page/LightboxSettingsPage.js:203
+#: src/options_page/PluginSettingsPage.js:410
+#: src/option_page_pim/PluginPimSettingsPage.js:733
+msgid "Oops, something went wrong. No Global Presets"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: dist/welcome.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:490
+#: src/options_page/LightboxSettingsPage.js:211
+#: src/options_page/PluginSettingsPage.js:418
+#: src/options_page/PluginSettingsPage.js:1089
+#: src/option_page_pim/PluginPimSettingsPage.js:741
+#: src/welcome_page/WelcomePage.js:46
+msgid "Ask a question"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: dist/welcome.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:520
+#: src/options_page/LightboxSettingsPage.js:240
+#: src/options_page/PluginSettingsPage.js:454
+#: src/option_page_pim/PluginPimSettingsPage.js:779
+#: src/welcome_page/WelcomePage.js:73
+msgid "Version:"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:533
+msgid "These settings will be used when displaying albums published as a shortcode."
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:537
+msgid "Select Preset for SimpLy Albums"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:557
+msgid "Saved"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/DynamicGalleryBuilder.js:737
+#: src/components/DynamicGalleryBuilder.js:789
+#: src/options_albums_page/AlbumsSettingsPage.js:558
+#: src/options_page/PluginSettingsPage.js:1069
+#: src/option_page_pim/PluginPimSettingsPage.js:1855
+#: src/option_page_pim/PluginPimSettingsPage.js:1889
+msgid "Save"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:564
+msgid "Albums Block"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:574
+#: src/options_albums_page/AlbumsSettingsPage.js:711
+msgid "Presets Manager"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:618
+#: src/options_albums_page/AlbumsSettingsPage.js:755
+msgid "Galleries Manager"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:675
+#: src/options_albums_page/AlbumsSettingsPage.js:838
+#: src/options_page/PluginSettingsPage.js:560
+#: src/options_page/PluginSettingsPage.js:671
+#: src/options_page/PluginSettingsPage.js:782
+#: src/options_page/PluginSettingsPage.js:893
+#: src/options_page/PluginSettingsPage.js:1009
+#: src/option_page_pim/PluginPimSettingsPage.js:878
+#: src/option_page_pim/PluginPimSettingsPage.js:989
+#: src/option_page_pim/PluginPimSettingsPage.js:1098
+#: src/option_page_pim/PluginPimSettingsPage.js:1209
+#: src/option_page_pim/PluginPimSettingsPage.js:1320
+#: src/option_page_pim/PluginPimSettingsPage.js:1418
+#: src/option_page_pim/PluginPimSettingsPage.js:1516
+#: src/option_page_pim/PluginPimSettingsPage.js:1614
+#: src/option_page_pim/PluginPimSettingsPage.js:1725
+msgid "Add your own CSS code here to customise the appearance and layout of this type of gallery."
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:694
+#: src/options_albums_page/AlbumsSettingsPage.js:857
+msgid "Preset Saved"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:695
+#: src/options_albums_page/AlbumsSettingsPage.js:858
+msgid "Save Preset"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:701
+msgid "Album Navigator"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:866
+#: src/option_page_pim/PluginPimSettingsPage.js:1917
+msgid "THANKS FOR BEING OUR AWESOME CUSTOMER!"
+msgstr ""
+
+#: dist/albums.page.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/options_albums_page/AlbumsSettingsPage.js:874
+#: src/options_page/PluginSettingsPage.js:1096
+#: src/option_page_pim/PluginPimSettingsPage.js:1925
+msgid "Leave a review"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryLoadMoreInspector.js:14
+msgid "Items Per Page"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryLoadMoreInspector.js:22
+msgid "Load More Button - Label Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryLoadMoreInspector.js:27
+msgid "Load More Button - Font Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryLoadMoreInspector.js:37
+msgid "Load More - Text Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryLoadMoreInspector.js:44
+msgid "Load More - Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/viewer/components/inspector.js:43
+#: src/components/inspectors/GalleryInspector.js:14
+msgid "Attention, when grouping this gallery with other blocks, the gallery will be automatically recreated, old links will be broke."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/viewer/components/inspector.js:46
+#: src/components/inspectors/GalleryInspector.js:17
+msgid "Toggle to enable Deeplinking."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:56
+msgid "Number of displayed thumbnails"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:69
+msgid " \"0\" - all thumbnails will be displayed"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:77
+msgid "Paged Mode - \"Load More\""
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:111
+msgid "Thumbnails lazy-loading"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:114
+msgid "Browser-level native lazy-loading"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:118
+msgid "Gallery Preloader Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:124
+msgid "Gallery without background"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:133
+#: src/components/inspectors/GalleryInspector.js:140
+msgid "Gallery Backgroud Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GalleryInspector.js:147
+#: src/components/inspectors/GalleryInspector.js:158
+msgid "Gallery Rounded Corners"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:202
+msgid "Play / Pause"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:232
+msgid "Select Poster"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:252
+#: src/components/ItemsPosterEditor.js:293
+msgid "Choose from Library"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:279
+msgid "Use this frame"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:282
+msgid "Choose from video..."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:306
+#: src/components/ItemsPosterEditor.js:309
+msgid "Remove featured image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsPosterEditor.js:307
+#: src/components/ItemsPosterEditor.js:310
+msgid "Remove Poster"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/TagsList.js:37
+msgid "There is nothing to add."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/TagsList.js:49
+#: src/components/TagsListSorting.js:260
+msgid "Displayed tags:"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/TagsList.js:91
+#: src/components/TagsListSorting.js:296
+msgid "Hidden tags:"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:126
+msgid "Are you really want remove all images?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:134
+msgid "Are you sure you want to remove selected items from the gallery?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:272
+msgid "Add Poster"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:284
+msgid "Add Link"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:296
+#: src/components/toolbar.js:45
+#: src/post_editor/blocks/albums_components/GlobalAlbumToolbar.js:54
+msgid "Edit"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:308
+msgid "Add Tags"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:320
+msgid "Remove"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:338
+msgid "Choose an image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:761
+msgid "Invalid URL"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1250
+msgid "Loading..."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1293
+msgid "Dynamic Mode - track changes to Media Library Items."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1302
+#: src/components/ItemsManager.js:1452
+msgid "Set cache time in hours for this Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1395
+#: src/components/toolbar.js:57
+msgid "Add Media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1398
+#: src/components/MediaPlaceholder.js:28
+msgid "+ Add Media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1403
+#: src/components/ItemsManager.js:1407
+msgid "Clear Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1415
+#: src/components/ItemsManager.js:1420
+msgid "Select Source for Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1418
+msgid "Change Playlist"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1419
+msgid "Change Collection"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1427
+#: src/components/ItemsManager.js:1430
+msgid "Convert to Static collection"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1441
+#: src/components/toolbar.js:65
+msgid "Reload Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1468
+msgid "Export Media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1476
+msgid "Copy IDs of this gallery items?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1188
+#: src/components/ItemsManager.js:1488
+msgid "Cancel"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1507
+msgid "Copy"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1513
+msgid "Import Media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1525
+msgid "Delete from Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1534
+msgid "Bulk Edit Tags"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1547
+msgid "Bulk Select"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1560
+#: src/components/ItemsManager.js:1598
+#: src/components/ItemsManager.js:1636
+msgid "Static Mode"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1573
+msgid "In this mode, the playlist will no longer receive updates from the source (YouTube), but you can customize the ordering and content of this gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1581
+msgid "Set cache time in hours for this Playlist"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1611
+msgid "In this mode, the collection will no longer receive updates from the source (Vimeo), but you can customize the ordering and content of this gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1619
+msgid "Set cache time in hours for this Collection"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1644
+msgid "In this mode, the gallery will no longer receive updates from the source, but you can customize the ordering and content of this gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1652
+msgid "Set cache time in hours for this gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1670
+msgid "Selected"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1675
+msgid "Select All"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1686
+msgid "No files"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1688
+msgid " file"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1688
+msgid " files"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1697
+msgid "Poster Image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/ItemsManager.js:1772
+#: src/option_page_pim/PluginPimSettingsPage.js:1793
+msgid "Add New "
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1794
+msgid "Get from Tag storage"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1800
+msgid "Reload Tags list"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/ItemsManager.js:1811
+#: src/option_page_pim/PluginPimSettingsPage.js:1802
+msgid "Tags list is empty!"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1865
+msgid "Order by"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1867
+msgid "Custom"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1868
+msgid "Uploaded"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1871
+msgid "Alt Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/ItemsManager.js:1872
+msgid "Random"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:172
+#: src/components/inspectors/BlocksInspectorBase.js:149
+msgid "This block uses the settings from the Global Preset. Dashboard -> SimpLy Gallery -> Blocks Preset / Premium Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:175
+#: src/components/inspectors/BlocksInspectorBase.js:152
+msgid "Would you like to use Global Preset for this block?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:212
+#: src/components/inspectors/BlocksInspectorBase.js:209
+msgid "Are you ready to lose the current settings for this block?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:261
+#: src/components/inspectors/BlocksInspectorBase.js:238
+msgid "Do you want to save the settings of this gallery as Global Preset?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:305
+#: src/components/inspectors/BlocksInspectorBase.js:281
+msgid "Global Presets - DANGER ZONE"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:314
+#: src/components/inspectors/BlocksInspectorBase.js:292
+msgid "You will need a brain for these settings or just ignore this panel."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/BlocksInspector.js:327
+#: src/components/inspectors/BlocksInspectorBase.js:305
+#: src/options_page/PluginSettingsPage.js:581
+#: src/options_page/PluginSettingsPage.js:692
+#: src/options_page/PluginSettingsPage.js:803
+#: src/options_page/PluginSettingsPage.js:914
+#: src/options_page/PluginSettingsPage.js:1030
+#: src/option_page_pim/PluginPimSettingsPage.js:899
+#: src/option_page_pim/PluginPimSettingsPage.js:1010
+#: src/option_page_pim/PluginPimSettingsPage.js:1119
+#: src/option_page_pim/PluginPimSettingsPage.js:1230
+#: src/option_page_pim/PluginPimSettingsPage.js:1341
+#: src/option_page_pim/PluginPimSettingsPage.js:1439
+#: src/option_page_pim/PluginPimSettingsPage.js:1537
+#: src/option_page_pim/PluginPimSettingsPage.js:1635
+#: src/option_page_pim/PluginPimSettingsPage.js:1746
+msgid "Global Preset Saved"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/BlocksInspector.js:328
+#: src/components/inspectors/BlocksInspectorBase.js:306
+#: src/options_page/PluginSettingsPage.js:582
+#: src/options_page/PluginSettingsPage.js:693
+#: src/options_page/PluginSettingsPage.js:804
+#: src/options_page/PluginSettingsPage.js:915
+#: src/options_page/PluginSettingsPage.js:1031
+#: src/option_page_pim/PluginPimSettingsPage.js:900
+#: src/option_page_pim/PluginPimSettingsPage.js:1011
+#: src/option_page_pim/PluginPimSettingsPage.js:1120
+#: src/option_page_pim/PluginPimSettingsPage.js:1231
+#: src/option_page_pim/PluginPimSettingsPage.js:1342
+#: src/option_page_pim/PluginPimSettingsPage.js:1440
+#: src/option_page_pim/PluginPimSettingsPage.js:1538
+#: src/option_page_pim/PluginPimSettingsPage.js:1636
+#: src/option_page_pim/PluginPimSettingsPage.js:1747
+msgid "Save as Global Preset"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:331
+#: src/components/inspectors/BlocksInspectorBase.js:309
+msgid "All Settings of this Gallery will be saved as the Global Preset for all blocks of this type, if the mode -"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/viewer/components/inspector.js:68
+#: src/components/inspectors/BlocksInspector.js:333
+msgid "Use Global Preset"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:335
+#: src/components/inspectors/BlocksInspectorBase.js:313
+msgid "is selected in the"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/viewer/components/inspector.js:60
+#: src/components/inspectors/BlocksInspector.js:337
+#: src/components/inspectors/BlocksInspector.js:344
+#: src/components/inspectors/BlocksInspectorBase.js:315
+#: src/options_page/PluginSettingsPage.js:482
+#: src/options_page/PluginSettingsPage.js:593
+#: src/options_page/PluginSettingsPage.js:704
+#: src/options_page/PluginSettingsPage.js:815
+#: src/options_page/PluginSettingsPage.js:926
+#: src/option_page_pim/PluginPimSettingsPage.js:800
+#: src/option_page_pim/PluginPimSettingsPage.js:911
+#: src/option_page_pim/PluginPimSettingsPage.js:1022
+#: src/option_page_pim/PluginPimSettingsPage.js:1131
+#: src/option_page_pim/PluginPimSettingsPage.js:1242
+#: src/option_page_pim/PluginPimSettingsPage.js:1353
+#: src/option_page_pim/PluginPimSettingsPage.js:1451
+#: src/option_page_pim/PluginPimSettingsPage.js:1549
+#: src/option_page_pim/PluginPimSettingsPage.js:1647
+msgid "Gallery Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:352
+#: src/components/inspectors/BlocksInspectorBase.js:311
+msgid "Use Global Presets"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/viewer/components/inspector.js:99
+#: src/components/inspectors/BlocksInspector.js:383
+msgid "Apply Global Preset"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:399
+msgid "Reset to default - Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/inspectors/BlocksInspector.js:405
+#: src/components/inspectors/BlocksInspectorBase.js:328
+msgid "Items Manager"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/grid/components/inspector.js:30
+#: src/blocks/justified/components/inspector.js:35
+#: src/blocks/list_pim/components/inspector.js:30
+#: src/blocks/masonry/components/inspector.js:30
+#: src/blocks/portfolio2_pim/components/inspector.js:30
+#: src/blocks/portfolio_pim/components/inspector.js:30
+#: src/blocks/viewer/components/inspector.js:118
+#: src/options_page/PluginSettingsPage.js:495
+#: src/options_page/PluginSettingsPage.js:606
+#: src/options_page/PluginSettingsPage.js:717
+#: src/options_page/PluginSettingsPage.js:946
+#: src/option_page_pim/PluginPimSettingsPage.js:813
+#: src/option_page_pim/PluginPimSettingsPage.js:924
+#: src/option_page_pim/PluginPimSettingsPage.js:1144
+msgid "Tags Filter Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/grid/components/inspector.js:43
+#: src/blocks/justified/components/inspector.js:48
+#: src/blocks/list_pim/components/inspector.js:43
+#: src/blocks/masonry/components/inspector.js:43
+#: src/blocks/portfolio2_pim/components/inspector.js:43
+#: src/blocks/portfolio_pim/components/inspector.js:43
+#: src/blocks/tagsBox_pim/components/inspector.js:45
+#: src/blocks/viewer/components/inspector.js:129
+msgid "Reset to default - Tags Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/diamond_pim/components/inspector.js:26
+#: src/blocks/grid/components/inspector.js:48
+#: src/blocks/justified/components/inspector.js:53
+#: src/blocks/list_pim/components/inspector.js:48
+#: src/blocks/masonry/components/inspector.js:48
+#: src/blocks/portfolio2_pim/components/inspector.js:48
+#: src/blocks/portfolio_pim/components/inspector.js:48
+#: src/blocks/showcase_pim/components/inspector.js:52
+#: src/blocks/slider/components/inspector.js:50
+#: src/blocks/splitcarousel_pim/components/inspector.js:50
+#: src/blocks/tagsBox_pim/components/inspector.js:50
+#: src/blocks/viewer/components/inspector.js:169
+#: src/options_page/PluginSettingsPage.js:508
+#: src/options_page/PluginSettingsPage.js:619
+#: src/options_page/PluginSettingsPage.js:730
+#: src/options_page/PluginSettingsPage.js:841
+#: src/options_page/PluginSettingsPage.js:985
+#: src/option_page_pim/PluginPimSettingsPage.js:826
+#: src/option_page_pim/PluginPimSettingsPage.js:937
+#: src/option_page_pim/PluginPimSettingsPage.js:1048
+#: src/option_page_pim/PluginPimSettingsPage.js:1157
+#: src/option_page_pim/PluginPimSettingsPage.js:1268
+msgid "Thumbnails Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/diamond_pim/components/inspector.js:41
+#: src/blocks/grid/components/inspector.js:63
+#: src/blocks/justified/components/inspector.js:68
+#: src/blocks/list_pim/components/inspector.js:63
+#: src/blocks/masonry/components/inspector.js:63
+#: src/blocks/portfolio2_pim/components/inspector.js:63
+#: src/blocks/portfolio_pim/components/inspector.js:63
+#: src/blocks/showcase_pim/components/inspector.js:67
+#: src/blocks/slider/components/inspector.js:65
+#: src/blocks/splitcarousel_pim/components/inspector.js:65
+#: src/blocks/tagsBox_pim/components/inspector.js:65
+#: src/blocks/viewer/components/inspector.js:180
+msgid "Reset to default - Thumbnails"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:83
+msgid "Products"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:94
+msgid "Select Category / Tag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:111
+msgid "Select Folder"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:475
+msgid "Select Term"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:531
+msgid "Enter Showcase/Album ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:532
+msgid "Enter Channel ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:533
+#: src/components/DynamicGalleryBuilder.js:534
+msgid "Enter User ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:535
+msgid "Enter Category ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:549
+#: src/components/grids-edit.js:1266
+msgid "Create Dynamic Gallery"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:559
+msgid "Taxonomies for Attachments"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:572
+#: src/components/DynamicGalleryBuilder.js:670
+msgid "Available Terms"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:583
+#: src/components/DynamicGalleryBuilder.js:681
+msgid "No Terms Available"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:587
+msgid "Press ctrl to select few terms"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:595
+#: src/components/DynamicGalleryBuilder.js:645
+#: src/components/DynamicGalleryBuilder.js:706
+#: src/components/DynamicGalleryBuilder.js:757
+#: src/components/DynamicGalleryBuilder.js:844
+msgid "Fetch"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:606
+msgid "FileBird Folders"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:624
+msgid "SimpLy Tags"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:637
+msgid "Press ctrl to select few tags"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:659
+#: src/components/DynamicGalleryBuilder.js:797
+msgid "Feed Type"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:685
+msgid "Number of displayed products"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/DynamicGalleryBuilder.js:720
+#: src/option_page_pim/PluginPimSettingsPage.js:1827
+msgid "YouTube API Key"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/DynamicGalleryBuilder.js:729
+#: src/option_page_pim/PluginPimSettingsPage.js:1847
+msgid "How to create a YouTube API key"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:745
+msgid "Playlist link"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/DynamicGalleryBuilder.js:772
+#: src/option_page_pim/PluginPimSettingsPage.js:1861
+msgid "Vimeo Personal Access Token"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/DynamicGalleryBuilder.js:781
+#: src/option_page_pim/PluginPimSettingsPage.js:1881
+msgid "How to create a Vimeo access token"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:818
+msgid "Enter folder ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/DynamicGalleryBuilder.js:827
+msgid "Number of displayed videos"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1167
+msgid "Insert Attachment IDs"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1172
+msgid "only IDs separated by comma"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1197
+msgid "Add"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1207
+msgid "Replace All"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/grids-edit.js:1233
+msgid "Upload new ones or select files from your library."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/components/BlockPreloaderBar.js:17
+msgid "Updating Gallery Data"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/masonry/index.js:48
+msgid "Display multiple images in an organized masonry gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:50
+#: src/blocks/diamond_pim/index.js:50
+#: src/blocks/grid/index.js:51
+#: src/blocks/horizon_pim/index.js:50
+#: src/blocks/justified/index.js:54
+#: src/blocks/list_pim/index.js:61
+#: src/blocks/masonry/index.js:52
+#: src/blocks/portfolio2_pim/index.js:58
+#: src/blocks/portfolio_pim/index.js:62
+#: src/blocks/showcase_pim/index.js:50
+#: src/blocks/slider/index.js:51
+#: src/blocks/splitcarousel_pim/index.js:50
+#: src/blocks/tagsBox_pim/index.js:60
+#: src/blocks/viewer/index.js:53
+msgid "images"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/masonry/index.js:53
+#: src/blocks/portfolio2_pim/index.js:59
+#: src/blocks/portfolio_pim/index.js:63
+msgid "masonry"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/lightbox.page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:52
+#: src/blocks/diamond_pim/index.js:52
+#: src/blocks/grid/index.js:53
+#: src/blocks/horizon_pim/index.js:53
+#: src/blocks/justified/index.js:56
+#: src/blocks/list_pim/index.js:62
+#: src/blocks/masonry/index.js:54
+#: src/blocks/portfolio2_pim/index.js:61
+#: src/blocks/portfolio_pim/index.js:65
+#: src/blocks/showcase_pim/index.js:53
+#: src/blocks/slider/index.js:54
+#: src/blocks/splitcarousel_pim/index.js:53
+#: src/blocks/tagsBox_pim/index.js:61
+#: src/blocks/viewer/index.js:56
+#: src/options_page/LightboxSettingsPage.js:271
+msgid "media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/grid/index.js:54
+#: src/blocks/horizon_pim/index.js:54
+#: src/blocks/justified/index.js:57
+#: src/blocks/list_pim/index.js:63
+#: src/blocks/masonry/index.js:55
+#: src/blocks/portfolio2_pim/index.js:62
+#: src/blocks/portfolio_pim/index.js:66
+#: src/blocks/showcase_pim/index.js:54
+#: src/blocks/slider/index.js:55
+#: src/blocks/splitcarousel_pim/index.js:54
+#: src/blocks/tagsBox_pim/index.js:62
+#: src/blocks/viewer/index.js:57
+msgid "lightbox"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:53
+#: src/blocks/diamond_pim/index.js:53
+#: src/blocks/grid/index.js:55
+#: src/blocks/horizon_pim/index.js:55
+#: src/blocks/justified/index.js:58
+#: src/blocks/list_pim/index.js:64
+#: src/blocks/masonry/index.js:56
+#: src/blocks/portfolio2_pim/index.js:63
+#: src/blocks/portfolio_pim/index.js:67
+#: src/blocks/showcase_pim/index.js:55
+#: src/blocks/slider/index.js:56
+#: src/blocks/splitcarousel_pim/index.js:55
+#: src/blocks/tagsBox_pim/index.js:63
+#: src/blocks/viewer/index.js:58
+msgid "youtube"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:54
+#: src/blocks/diamond_pim/index.js:54
+#: src/blocks/grid/index.js:56
+#: src/blocks/horizon_pim/index.js:56
+#: src/blocks/justified/index.js:59
+#: src/blocks/list_pim/index.js:65
+#: src/blocks/masonry/index.js:57
+#: src/blocks/portfolio2_pim/index.js:64
+#: src/blocks/portfolio_pim/index.js:68
+#: src/blocks/showcase_pim/index.js:56
+#: src/blocks/slider/index.js:57
+#: src/blocks/splitcarousel_pim/index.js:56
+#: src/blocks/tagsBox_pim/index.js:64
+#: src/blocks/viewer/index.js:59
+msgid "vimeo"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/JustifiedInspector.js:19
+msgid "Select Thumbnail Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/JustifiedInspector.js:80
+msgid "Reduce on small display"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/JustifiedInspector.js:82
+msgid "This mode halves the size of thumbnails (from the selected thumbnail size) for small displays (mobile phone). But it can get in trouble if you display additional information on a thumbnail."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/JustifiedInspector.js:89
+msgid "Last Row Mode"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/justified/index.js:50
+msgid "Display multiple images in an organized justified gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/justified/index.js:55
+msgid "justified"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/GridInspector.js:90
+#: src/components/inspectors/TagsBoxInspector.js:92
+#: src/components/inspectors/ViewerThumbnailsInspector.js:44
+msgid "Thumbnail Size ratio. Height / Width = Ratio."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/grid/index.js:47
+msgid "Display multiple images in an organized grid gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/grid/index.js:52
+msgid "grid"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:18
+#: src/components/inspectors/CarouselInspectorOptions.js:15
+#: src/components/inspectors/DiamondInspector.js:17
+#: src/components/inspectors/HorizonInspector.js:15
+#: src/components/inspectors/ShowcaseInspector.js:15
+#: src/components/inspectors/SliderInspectorOptions.js:16
+msgid "Gallery will maintain its current aspect ratio when changing width."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:21
+#: src/components/inspectors/CarouselInspectorOptions.js:18
+#: src/components/inspectors/DiamondInspector.js:20
+#: src/components/inspectors/HorizonInspector.js:18
+#: src/components/inspectors/ShowcaseInspector.js:18
+#: src/components/inspectors/SliderInspectorOptions.js:19
+msgid "Gallery has a fixed height."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:31
+msgid "Items on Slider Page"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:29
+#: src/components/inspectors/ShowcaseInspector.js:29
+#: src/components/inspectors/SliderInspectorOptions.js:39
+msgid "Slider Height in pixels"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:61
+#: src/components/inspectors/CarouselInspectorOptions.js:37
+#: src/components/inspectors/HorizonInspector.js:37
+#: src/components/inspectors/ShowcaseInspector.js:37
+#: src/components/inspectors/SliderInspectorOptions.js:47
+msgid "Responsive height"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:55
+msgid "Slides Transition Type"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:68
+msgid "Image display mode"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:70
+msgid "Fill"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:71
+msgid "Fit"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:77
+msgid "Item background color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:82
+msgid "Item border width (px)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/SliderInspectorOptions.js:90
+msgid "Item border color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:205
+#: src/components/inspectors/HorizonInspector.js:97
+#: src/components/inspectors/SliderInspectorOptions.js:95
+msgid "Apply Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:207
+#: src/components/inspectors/HorizonInspector.js:99
+#: src/components/inspectors/SliderInspectorOptions.js:97
+msgid "Original"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:208
+#: src/components/inspectors/HorizonInspector.js:100
+#: src/components/inspectors/SliderInspectorOptions.js:98
+msgid "Grayscale Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:209
+#: src/components/inspectors/HorizonInspector.js:101
+#: src/components/inspectors/SliderInspectorOptions.js:99
+msgid "Sepia Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:210
+#: src/components/inspectors/HorizonInspector.js:102
+#: src/components/inspectors/SliderInspectorOptions.js:100
+msgid "Saturation Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:211
+#: src/components/inspectors/HorizonInspector.js:103
+#: src/components/inspectors/SliderInspectorOptions.js:101
+msgid "Dim Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:212
+#: src/components/inspectors/HorizonInspector.js:104
+#: src/components/inspectors/SliderInspectorOptions.js:102
+msgid "Vintage Filter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:45
+#: src/components/inspectors/SliderInspectorOptions.js:110
+msgid "Arrow navigation"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:54
+#: src/components/inspectors/SliderInspectorOptions.js:119
+msgid "Navigation Arrows - BG Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:59
+#: src/components/inspectors/SliderInspectorOptions.js:124
+msgid "Navigation Arrows - Icon Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:64
+#: src/components/inspectors/SliderInspectorOptions.js:129
+msgid "Navigation Arrows - Hover BG Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:69
+#: src/components/inspectors/SliderInspectorOptions.js:134
+msgid "Navigation Arrows - Icon Hover Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:90
+#: src/components/inspectors/SliderInspectorOptions.js:158
+msgid "Show Dot navigation"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:102
+#: src/components/inspectors/SliderInspectorOptions.js:170
+msgid "Dots Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:107
+#: src/components/inspectors/SliderInspectorOptions.js:175
+msgid "Dots Color (select mode)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:114
+#: src/components/inspectors/ShowcaseInspector.js:72
+#: src/components/inspectors/SliderInspectorOptions.js:182
+msgid "Autoplay"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:121
+#: src/components/inspectors/ShowcaseInspector.js:79
+#: src/components/inspectors/SliderInspectorOptions.js:189
+msgid "Transition speed"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:129
+#: src/components/inspectors/ShowcaseInspector.js:87
+#: src/components/inspectors/SliderInspectorOptions.js:197
+msgid "Pause on hover"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/horizon_pim/components/inspector.js:28
+#: src/blocks/showcase_pim/components/inspector.js:32
+#: src/blocks/slider/components/inspector.js:30
+#: src/blocks/viewer/components/inspector.js:152
+#: src/options_page/PluginSettingsPage.js:828
+#: src/options_page/PluginSettingsPage.js:972
+#: src/option_page_pim/PluginPimSettingsPage.js:1366
+msgid "Slider Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/horizon_pim/components/inspector.js:43
+#: src/blocks/showcase_pim/components/inspector.js:47
+#: src/blocks/slider/components/inspector.js:45
+#: src/blocks/viewer/components/inspector.js:163
+msgid "Reset to default - Slider"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/showcase_pim/index.js:46
+#: src/blocks/slider/index.js:47
+#: src/blocks/viewer/index.js:49
+msgid "Display multiple images in an organized slider gallery."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/horizon_pim/index.js:51
+#: src/blocks/showcase_pim/index.js:51
+#: src/blocks/slider/index.js:52
+#: src/blocks/splitcarousel_pim/index.js:51
+#: src/blocks/viewer/index.js:54
+msgid "slider"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/horizon_pim/index.js:52
+#: src/blocks/showcase_pim/index.js:52
+#: src/blocks/slider/index.js:53
+#: src/blocks/splitcarousel_pim/index.js:52
+msgid "carousel"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:19
+msgid "Slider Height ratio. Height / Width = Ratio."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:31
+msgid "Visual Slider Mode"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:33
+msgid "Classical"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:34
+msgid "Clean Style"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:128
+msgid "Slider Background color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:250
+msgid "Slideshow Autostart"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:292
+msgid "Show Info Button"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:300
+msgid "Info Bar - Overlap Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerInspectorSlider.js:323
+msgid "Show Resize Button"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:60
+msgid "Rows"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:182
+msgid "Badge icon color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:189
+msgid "Badge background color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:197
+msgid "Page Controller Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:204
+msgid "Page Controller Hover color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:211
+msgid "Page Controller Text Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/page.build.js:1
+#: src/components/inspectors/ViewerThumbnailsInspector.js:218
+msgid "Page Controller Text Hover Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks/viewer/index.js:55
+msgid "pagination"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:197
+#: src/options_page/LightboxSettingsPage.js:236
+msgid "Lightbox Plugin"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/welcome.build.js:1
+#: src/options_page/LightboxSettingsPage.js:248
+#: src/options_page/PluginSettingsPage.js:463
+#: src/welcome_page/WelcomePage.js:81
+msgid "The PREMIUM version is now available."
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/page.build.js:1
+#: dist/welcome.build.js:1
+#: src/options_page/LightboxSettingsPage.js:249
+#: src/options_page/PluginSettingsPage.js:464
+#: src/welcome_page/WelcomePage.js:82
+msgid "Learn more about Plus / Pro Version"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:257
+msgid "Lightbox for native WordPress Gallery / Image"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:261
+msgid "Common Settings"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:266
+msgid "USAGE"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:268
+msgid "All linked images in a post or page will be displayed using SimpLy Lihghtbox, regardless if they are part of a gallery or single images. Just make sure that you link the image or gallery directly to the"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:274
+msgid "and not the attachment page (in galleries the option"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:277
+msgid "link=file"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:280
+msgid "should be set)."
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:283
+msgid "Activate Lightbox"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:295
+msgid "Lightbox Type"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:296
+msgid "* This type of lightbox will be used by default."
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:17
+#: src/options_page/LightboxSettingsPage.js:309
+msgid "Use lightbox for Native WP Gallery"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:24
+#: src/options_page/LightboxSettingsPage.js:316
+msgid "Use lightbox for Native WP Image"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:32
+#: src/options_page/LightboxSettingsPage.js:325
+msgid "Combine all single WP Images (from the Post / Page) to display in the lightbox."
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:43
+#: src/options_page/LightboxSettingsPage.js:336
+msgid "Create Photo \"Story\" - Combine everything that is selected above."
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:52
+#: src/options_page/LightboxSettingsPage.js:345
+msgid "Social Share"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:378
+msgid "Changes Saved"
+msgstr ""
+
+#: dist/lightbox.page.build.js:1
+#: src/options_page/LightboxSettingsPage.js:379
+msgid "Save Changes"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:404
+#: src/options_page/PluginSettingsPage.js:450
+msgid "Gallery Plugin"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:472
+msgid "SimpLy Blocks Presets"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:477
+msgid "Grid Block"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:588
+msgid "Masonry Block"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:699
+msgid "Justified Block"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:810
+msgid "Slider Block"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:921
+msgid "Viewer Block"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1038
+msgid "Multisite ( WordPress MU ) Settings"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1041
+msgid "This settings gives Administrators and Editors the ability to unfiltered_html capability. This means that you give the Administrators and / or Editors the right to add Javascript to the page / post and this will allow editing and publishing SimpLy Blocks."
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1044
+msgid "Allow Administrators"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1051
+msgid "Allow Editors"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1078
+msgid "Got a question for us?"
+msgstr ""
+
+#: dist/page.build.js:1
+#: src/options_page/PluginSettingsPage.js:1080
+msgid "We would love to help you out if you need any help with"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/components/inspectors/LightboxPluginInspector.js:15
+msgid "Activity and Grouping"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:204
+msgid "Do you want to save current Lightbox settings as Global Preset?"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:236
+msgid "SimpLy Lightbox"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:241
+msgid "Use"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:241
+msgid "Lightbox for this"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:249
+msgid "Use Lightbox Global Preset for this"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:286
+msgid "Global Preset"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:305
+msgid "Lightbox on this"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:305
+msgid "is configured according to the Global Preset"
+msgstr ""
+
+#: dist/plugin.build.js:1
+#: src/plugins/lightbox/index.js:303
+msgid "All values of the Lightbox properties that are below will be saved as the Lightbox Global Peset for all pages/posts, if the mode - Use Lightbox Global Preset is selected on this "
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:40
+#: src/components/inspectors/PortfolioInspector.js:37
+msgid "Keep the sequence of items"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:45
+#: src/components/inspectors/PortfolioInspector.js:42
+msgid "Ignore uniform column filling"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:153
+msgid "Item Preview hover color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/PortfolioInspector.js:158
+msgid "Item Info Bar Background Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:96
+#: src/components/inspectors/CarouselInspector.js:55
+#: src/components/inspectors/ListInspector.js:114
+#: src/components/inspectors/Portfolio2Inspector.js:195
+#: src/components/inspectors/PortfolioInspector.js:192
+msgid "Show Item Captions"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:117
+#: src/components/inspectors/CarouselInspector.js:76
+#: src/components/inspectors/ListInspector.js:135
+#: src/components/inspectors/Portfolio2Inspector.js:216
+#: src/components/inspectors/PortfolioInspector.js:213
+msgid "Caption Font size"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:127
+#: src/components/inspectors/CarouselInspector.js:86
+#: src/components/inspectors/ListInspector.js:145
+#: src/components/inspectors/Portfolio2Inspector.js:226
+#: src/components/inspectors/PortfolioInspector.js:223
+msgid "Caption Text Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterPimInspector.js:80
+msgid "Label for button \"All\""
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/SplashTagsContentManager.js:85
+#: src/components/inspectors/TagsFilterPimInspector.js:86
+msgid "Enable Tags Filter Editor"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterPimInspector.js:98
+msgid "Enable DeepLinking for Tags Filter"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterPimInspector.js:105
+msgid "Remove button \"All\""
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterPimInspector.js:112
+msgid "Filtration by the first Tag will be applied when the gallery is initialized"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsFilterPimInspector.js:128
+msgid "Style Setting"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/portfolio2_pim/index.js:54
+#: src/blocks/portfolio_pim/index.js:58
+msgid "Display multiple items in an organized portfolio gallery."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/portfolio2_pim/index.js:60
+#: src/blocks/portfolio_pim/index.js:64
+msgid "portfolio"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:156
+msgid "Panning Effect"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:140
+#: src/components/inspectors/Portfolio2Inspector.js:163
+msgid "Shadow Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:259
+msgid "Link Button - Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:266
+msgid "Link Button - Hover Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:276
+msgid "Stop button background color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/Portfolio2Inspector.js:283
+msgid "Stop button icon color - Hover"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsBoxInspector.js:116
+msgid "Thumbnails overlay color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsBoxInspector.js:121
+msgid "Show Tag Title"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsBoxInspector.js:148
+msgid "Show number of Items"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsBoxInspector.js:157
+msgid "Number Font size"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/TagsBoxInspector.js:167
+msgid "Number Text Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/SplashTagsContentManager.js:72
+msgid "One Cover - Mode"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/SplashTagsContentManager.js:78
+msgid "Label for cover \"All\""
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/tagsBox_pim/components/inspector.js:30
+#: src/option_page_pim/PluginPimSettingsPage.js:1035
+msgid "Splash Page Settings"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/tagsBox_pim/index.js:56
+msgid "Display gallery as a list of Tags."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:18
+msgid "Media Element Width (%)"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:27
+msgid "Media Element Max. Width (%) - Interactiv Mode"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:39
+msgid "Chess Mode"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:44
+msgid "Space between item"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:52
+msgid "Space inside item"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:160
+#: src/components/inspectors/ListInspector.js:68
+msgid "Item Background Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:75
+msgid "Item Background Color - Even"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:104
+msgid "Title Text Color - Enve"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ListInspector.js:152
+msgid "Caption Text Color - Enve"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/list_pim/index.js:57
+msgid "Display gallery as list."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/list_pim/index.js:66
+msgid "list"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:18
+msgid "Background Color 1 (gradient)"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:23
+msgid "Background Color 2 (gradient)"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:119
+msgid "Link Button Text Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:126
+msgid "Link Button Bg Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:146
+msgid "Share Button background color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:153
+msgid "Share Button icon color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:162
+msgid "Show Item Counter"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspector.js:169
+msgid "Item Counter color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:29
+msgid "Carousel Height in pixels"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:76
+msgid "Next / Previous navigation (Inside)"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/CarouselInspectorOptions.js:84
+msgid "Buttons Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/splitcarousel_pim/components/inspector.js:30
+#: src/option_page_pim/PluginPimSettingsPage.js:1255
+msgid "Carousel Settings"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/splitcarousel_pim/components/inspector.js:45
+msgid "Reset to default - Carousel"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/splitcarousel_pim/index.js:46
+msgid "Display multiple images in an organized Carousel gallery."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:45
+msgid "Sctoll Bar"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:54
+msgid "Scroll Bar Height in pixels"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:62
+msgid "Srollbar Track color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:67
+msgid "Scrollbar Thumb color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:72
+msgid "Scrollbar Thumb Hover BG Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:81
+msgid "Use mouse scroll"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/HorizonInspector.js:86
+msgid "The scroll of the page will be partially canceled"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/horizon_pim/index.js:46
+msgid "Display multiple images in an organized Horizontal gallery."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/ShowcaseInspector.js:45
+msgid "Controls always show"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:32
+msgid "Click Mode"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:37
+msgid "Item opening will occur only after clicking on the item"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:40
+msgid "Item Preview Overlay color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:45
+msgid "Active Item - desired Width (px)"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:53
+msgid "Accordion Height in pixels"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:160
+msgid "Link Button - Label Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:167
+msgid "Link Button - BG Color"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:177
+msgid "Previous / Next Buttons BG Color "
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:182
+msgid "Previous / Next Buttons BG Color - Hover "
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:187
+msgid "Previous / Next Buttons Icon Color "
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/AccortionInspector.js:192
+msgid "Previous / Next Buttons Icon Color - Hover "
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/blocks/accordion_pim/components/inspector.js:26
+#: src/option_page_pim/PluginPimSettingsPage.js:1464
+msgid "Accordion Settings"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/components/inspector.js:41
+msgid "Reset to default - Accordion"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:46
+msgid "Displaying multiple images as a gallery with accordion effect."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/accordion_pim/index.js:51
+msgid "accordion"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:31
+msgid "Type"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:33
+msgid "Diamond"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:34
+msgid "Hexagon"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:35
+msgid "Octagon"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:36
+msgid "Circle"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:132
+msgid "Shadow Size"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:147
+msgid "Mouse Hover Style"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:149
+msgid "Light"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:150
+msgid "Grayscale"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:151
+msgid "Sepia"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:152
+msgid "Invert"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:153
+msgid "Noise"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: dist/premium-pages/page.build.js:1
+#: src/components/inspectors/DiamondInspector.js:154
+msgid "Glitch"
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/diamond_pim/index.js:46
+msgid "Displaying multiple images as a gallery with grid effect."
+msgstr ""
+
+#: dist/premium-blocks/blocks_pim.build.js:1
+#: src/blocks/diamond_pim/index.js:51
+msgid "diamond"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:727
+msgid "Gallery Premium Plugin"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:775
+msgid "Gallery Premium"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:790
+msgid "Premium Blocks Presets & Options"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:795
+msgid "Portfolio Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:906
+msgid "Portfolio2 Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1017
+msgid "TagsBox Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1126
+msgid "List Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1237
+msgid "Split Carousel Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1348
+msgid "Horizon Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1446
+msgid "Accordion Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1544
+msgid "Diamond Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1562
+msgid "Diamond Settings"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1642
+msgid "Showcase Block"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1660
+msgid "Showcase Settings"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1673
+msgid "Showcase Thumbnails Settings"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1753
+msgid "Tags Storage"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1797
+msgid "Enter a comma separated list of Tags to apply to Tags Storage."
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1818
+msgid "Tags Storage contains all previously used tags and acts as an assistant for quickly adding a tag to a media element."
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1819
+msgid "* Removing a tag from storage does not remove that tag from media elements."
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1834
+msgid "API Key:"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1868
+msgid "Access Token:"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1895
+msgid "Dynamic Galleries"
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1902
+msgid "Delete all data cached by the plugin."
+msgstr ""
+
+#: dist/premium-pages/page.build.js:1
+#: src/option_page_pim/PluginPimSettingsPage.js:1909
+msgid "Delete Cache"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:32
+msgid "Welcome aboard. Our team welcomes You!"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:38
+msgid "Oops, something went wrong."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:69
+msgid "Welcome aboard. Our team welcomes you!"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:94
+msgid "Disclaimer"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:97
+msgid "Attention! Our blocks and a couple of decent plugins can make you quit searching and using themes with a lot of unclaimed code and third-party website builders (which were outdated yesterday). And start using great solutions from the WordPress team."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:101
+msgid "Main Features & Solutions"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:105
+msgid "Visual Gallery Builder"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:106
+msgid "Build your gallery with no coding knowledge. Thanks to native WordPress Block Editor you are able to create and customize galleries visually."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:110
+msgid "Video, Photo, Audio. Mixed media content"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:111
+msgid "Your gallery can now contain any of three types of media content. Just press the button - \"Add Media\"."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:115
+msgid "Don't limit your imagination. Be creative!"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:116
+msgid "Change the gallery layout in a couple of clicks. Our team has taken care of your comfort and ease of use. Transform! "
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:120
+msgid "Managing gallery content is now very easy"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:121
+msgid "Any sort of sorting is available to you, even manual mode. Editing a description, adding tags, attaching a poster, adding an external link to a gallery element is very easy and convenient. And also just add a link to YouTube or Vimeo video to the image and get a unique video playlist."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:125
+msgid "Easy to Customize"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:126
+msgid "A large number of settings will allow you to customize your gallery uniquely and integrate into any theme."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:130
+msgid "YouTube and Vimeo"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:131
+msgid "Just copy the video link and add it to the image. The image will turn into a video poster. The gallery will embed the external video (YouTube and Vimeo) to your page only at the time of viewing. This means that you can add up to 100 videos to the gallery and your page will have a fast loading speed."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:135
+msgid "And of course"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:137
+msgid "Fully Responsive"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:138
+msgid "Popup Deep Linking"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:139
+msgid "Keyboard and mouse wheel support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:140
+msgid "SVG icon"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:141
+msgid "Physics Based Animations"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:142
+msgid "FullScreen support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:143
+msgid "Inactive State detection"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:144
+msgid "Smart Resizing"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:145
+msgid "Social Sharing (Facebook, Twitter, Pinterest)"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:146
+msgid "Thumbnails support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:147
+msgid "Lightbox – Mouse wheel navigation"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:148
+msgid "Multi-touch gestures support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:149
+msgid "Optimized to be Fast as Native"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:150
+msgid "Tags Filtrations"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:151
+msgid "No unnecessary JS libraries"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:152
+msgid "And much more..."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:158
+msgid "Thank You for choosing us!"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:164
+msgid "Lightbox Image Size"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:165
+msgid "How to create an Album"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:166
+msgid "Tags Filter"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:167
+msgid "How to attach a YouTube or Vimeo video to a poster (image) in the gallery"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:168
+msgid "How To Get YouTube API Key?"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:255
+msgid "Upgrade NOW"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:263
+msgid "If You know how to plan. If the gallery is your means of expression or a showcase of your craft. If You are an advanced user then you need a PRO plan."
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:264
+msgid "PRO Plan Features"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:266
+msgid "Supports WooCommerce List, Categories and Tags"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:267
+msgid "Supports FileBird Folders"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:268
+msgid "Supports MLA Categories and Tags"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:269
+msgid "Publishing Vimeo Collections"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:270
+msgid "Publishing YouTube Playlists"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:271
+msgid "Modern Lightbox"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:272
+msgid "Email Support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:273
+msgid "Priority Support"
+msgstr ""
+
+#: dist/welcome.build.js:1
+#: src/welcome_page/WelcomePage.js:277
+msgid "Upgrade"
+msgstr ""
+
+#: src/components/ItemsManager.js:1716
+msgid "Item Tags"
+msgstr ""
+
+#: src/components/ItemsManager.js:1716
+msgid "Bulk Edit - Tags"
+msgstr ""
+
+#: src/components/ItemsManager.js:1776
+msgid "Enter a comma separated list of Tags to apply to this item."
+msgstr ""
+
+#: src/components/ItemsManager.js:1777
+msgid "Enter a comma separated list of Tags to apply to this items."
+msgstr ""
+
+#: src/components/toolbar.js:45
+#: src/post_editor/blocks/albums_components/GlobalAlbumToolbar.js:54
+msgid "Previw"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:298
+msgid "Global Preset Updated"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:299
+msgid "Update Global Preset"
+msgstr ""
+
+#: src/welcome_page/WelcomePage.js:173
+msgid "PREMIUM Blocks Demo"
+msgstr ""
+
+#: src/welcome_page/WelcomePage.js:174
+msgid "Upgrade to the PLUS Plan and get more Blocks!"
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+msgctxt "block title"
+msgid "Album Navigator"
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block description"
+msgid "Display SimpLy Album."
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block keyword"
+msgid "album"
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block keyword"
+msgid "simply"
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block keyword"
+msgid "galleries"
+msgstr ""
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block keyword"
+msgid "category"
+msgstr ""
+
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block title"
+msgid "Albums"
+msgstr ""
+
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block title"
+msgid "Saved SimpLy Gallery"
+msgstr ""
+
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block description"
+msgid "Display saved SimpLy Gallery."
+msgstr ""
+
+#: blocks/basic-blocks/galleries/block.json
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/diamond/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr ""
+
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block keyword"
+msgid "shortcode"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+msgctxt "block title"
+msgid "Grid"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized grid gallery."
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/diamond/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/diamond/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/diamond/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "lightbox"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "youtube"
+msgstr ""
+
+#: blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/accordion/block.json
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/list/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/showcase/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "vimeo"
+msgstr ""
+
+#: blocks/basic-blocks/justified/block.json
+msgctxt "block title"
+msgid "Justified"
+msgstr ""
+
+#: blocks/basic-blocks/justified/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized justified gallery."
+msgstr ""
+
+#: blocks/basic-blocks/justified/block.json
+msgctxt "block keyword"
+msgid "justified"
+msgstr ""
+
+#: blocks/basic-blocks/masonry/block.json
+msgctxt "block title"
+msgid "Masonry"
+msgstr ""
+
+#: blocks/basic-blocks/masonry/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized masonry gallery."
+msgstr ""
+
+#: blocks/basic-blocks/masonry/block.json
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "masonry"
+msgstr ""
+
+#: blocks/basic-blocks/slider/block.json
+msgctxt "block title"
+msgid "SimpLy Slider"
+msgstr ""
+
+#: blocks/basic-blocks/slider/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized slider gallery"
+msgstr ""
+
+#: blocks/basic-blocks/slider/block.json
+#: blocks/premium-blocks/showcase/block.json
+msgctxt "block keyword"
+msgid "slider"
+msgstr ""
+
+#: blocks/basic-blocks/viewer/block.json
+msgctxt "block title"
+msgid "Viewer"
+msgstr ""
+
+#: blocks/basic-blocks/viewer/block.json
+#: blocks/premium-blocks/showcase/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized slider gallery."
+msgstr ""
+
+#: blocks/premium-blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: blocks/premium-blocks/accordion/block.json
+msgctxt "block description"
+msgid "Displaying multiple images as a gallery with accordion effect."
+msgstr ""
+
+#: blocks/premium-blocks/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr ""
+
+#: blocks/premium-blocks/diamond/block.json
+msgctxt "block title"
+msgid "Diamond"
+msgstr ""
+
+#: blocks/premium-blocks/diamond/block.json
+msgctxt "block description"
+msgid "Displaying multiple images as a gallery with grid effect."
+msgstr ""
+
+#: blocks/premium-blocks/horizon/block.json
+msgctxt "block title"
+msgid "Horizon"
+msgstr ""
+
+#: blocks/premium-blocks/horizon/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized Horizontal gallery."
+msgstr ""
+
+#: blocks/premium-blocks/horizon/block.json
+#: blocks/premium-blocks/splitcarousel/block.json
+msgctxt "block keyword"
+msgid "carousel"
+msgstr ""
+
+#: blocks/premium-blocks/list/block.json
+msgctxt "block title"
+msgid "SimpLy List"
+msgstr ""
+
+#: blocks/premium-blocks/list/block.json
+msgctxt "block description"
+msgid "Display gallery as list."
+msgstr ""
+
+#: blocks/premium-blocks/list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: blocks/premium-blocks/portfolio/block.json
+msgctxt "block title"
+msgid "Portfolio"
+msgstr ""
+
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+msgctxt "block description"
+msgid "Display multiple items in an organized portfolio gallery."
+msgstr ""
+
+#: blocks/premium-blocks/portfolio/block.json
+#: blocks/premium-blocks/portfolio2/block.json
+msgctxt "block keyword"
+msgid "portfolio"
+msgstr ""
+
+#: blocks/premium-blocks/portfolio2/block.json
+msgctxt "block title"
+msgid "Portfolio2"
+msgstr ""
+
+#: blocks/premium-blocks/showcase/block.json
+msgctxt "block title"
+msgid "Showcase"
+msgstr ""
+
+#: blocks/premium-blocks/splitcarousel/block.json
+msgctxt "block title"
+msgid "Split Carousel"
+msgstr ""
+
+#: blocks/premium-blocks/splitcarousel/block.json
+msgctxt "block description"
+msgid "Display multiple images in an organized Carousel gallery."
+msgstr ""
+
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block title"
+msgid "SimpLy Tags Box"
+msgstr ""
+
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block description"
+msgid "Display gallery as a list of Tags."
+msgstr ""
+
+#: blocks/premium-blocks/tagsbox/block.json
+msgctxt "block keyword"
+msgid "tagsbox"
+msgstr ""

@@ -1,0 +1,12 @@
+{
+  "apiVersion": 2,
+  "name": "pgcsimplygalleryblock/galleries",
+  "title": "Saved SimpLy Gallery",
+  "description": "Display saved SimpLy Gallery.",
+  "keywords": ["galleries", "gallery", "shortcode", "simply"],
+  "textdomain": "simply-gallery-block",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  }
+}

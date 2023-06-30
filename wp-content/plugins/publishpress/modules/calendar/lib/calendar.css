@@ -1,0 +1,17 @@
+.calendar-subscribe {
+    font-size: 12px;
+    color: #999999;
+    position: absolute;
+    top: 50px;
+    right: 46px;
+}
+
+.calendar-subscribe span.dashicons {
+    font-size: 17px;
+}
+
+#publishpress-ics-copy .dashicons,
+#publishpress-ics-download .dashicons {
+    margin-top: 4px;
+    margin-right: 2px;
+}

@@ -1,0 +1,204 @@
+/** Content Overview **/
+header h2 span {
+    color: #999999;
+}
+
+header h2 form {
+    display: inline;
+    position: relative;
+}
+
+header h2 form input.date-pick {
+    width: 160px;
+}
+
+header h2 a.change-date,
+header h2 a.change-date-cancel {
+    font-size: 14px;
+}
+
+.postbox-container {
+    float: left;
+    padding-right: 0;
+    width: 100%;
+}
+
+.postbox {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.postbox .inside {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-overview thead tr th {
+    background: #f1f1f1 !important;
+}
+
+.pp-updated {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px 15px 2px;
+    padding: 0 0.6em;
+}
+
+.wrap .pp-updated {
+    margin: 5px 0 15px;
+}
+
+.pp-updated p {
+    line-height: 1;
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+#start_date, #end_date {
+    width: 100px;
+}
+
+#pp-content-filters-hidden,
+#pp-content-filters {
+    float: left;
+}
+
+#pp-content-overview-wrap .handlediv {
+    height: 6px;
+}
+
+.planner_page_pp-content-overview input[type="submit"] {
+    margin: 0 8px 0 0;
+}
+
+.planner_page_pp-content-overview #pp-content-filters input {
+    margin-top: 5px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.planner_page_pp-content-overview #post-query-clear {
+    margin-bottom: 0;
+    margin-left: 4px;
+    float: right;
+}
+
+.planner_page_pp-content-overview .publishpress-admin header h2 {
+    display: inline-block;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 25px;
+    color: #999999;
+}
+
+#pp-content-overview-tablenav, 
+#pp-content-overview-tablenav input[type="text"], 
+.planner_page_pp-content-overview .publishpress-admin header h2 input[type="text"],
+.planner_page_pp-content-overview .publishpress-admin header h2 input[type="search"],
+#pp-content-overview-tablenav .select2-container--default .select2-selection--single .select2-selection__rendered,
+#pp-content-overview-tablenav ::-webkit-input-placeholder, 
+.planner_page_pp-content-overview .publishpress-admin header h2 ::-webkit-input-placeholder,
+.pp-co-metadata-filter-row .form-table {
+    color: #999999;
+}
+
+.planner_page_pp-content-overview .publishpress-admin .pp-content-overview-wrap {
+    margin-top: 0;
+}
+
+.planner_page_pp-content-overview #pp-content-filters input#filter-submit {
+    margin: 5px 8px 0 0;
+}
+
+.planner_page_pp-content-overview #pp-content-filters input#post-query-clear,
+.planner_page_pp-content-overview #pp-content-filters input#filter-submit,
+#pp-content-overview-range-submit,
+#co-searchbox-search-submit {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-weight: initial;
+}
+
+.pp-co-metadata-filter-row .form-table th {
+    width: 155px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #999999;
+    vertical-align: middle;
+}
+
+.pp-co-metadata-filter-row .form-table td {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #999999;
+}
+
+.pp-co-metadata-filter-row .form-table td .select2-container {
+    min-width: 172px;
+    margin-top: 5px;
+}
+
+.pp-co-metadata-filter-row .form-table td input[type=text] {
+    width: 172px;
+}
+
+.pp-co-metadata-filter-row .time-ranger-row .input-divider {
+    margin-right: 2px;
+}
+
+@media (max-width: 782px) {
+
+    .pp-co-metadata-filter-row .form-table th {
+        width: initial;
+    }
+    .pp-co-metadata-filter-row .form-table td .select2-container {
+        min-width: 100%;
+    }
+
+    .planner_page_pp-content-overview .publishpress-admin header h2 {
+        display: block;
+    }
+
+    .planner_page_pp-content-overview .publishpress-admin header h2 .co-top-searchbox {
+        margin-top: 10px;
+    }
+
+    #post-query-clear {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    #pp-content-filters-hidden,
+    #pp-content-filters {
+        float: none;
+    }
+
+    table.content-overview .column-post_date,
+    table.content-overview .column-post_modified,
+    table.content-overview tr.alternate td:nth-child(4),
+    table.content-overview tr.alternate td:nth-child(5) {
+        display: none;
+    }
+
+    .fixed .column-author,
+    .fixed .column-title,
+    .fixed .column-status {
+        width: 33%;
+    }
+}

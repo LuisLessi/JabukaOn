@@ -1,0 +1,21 @@
+{
+  "apiVersion": 2,
+  "name": "pgcsimplygalleryblock/slider",
+  "title": "SimpLy Slider",
+  "description": "Display multiple images in an organized slider gallery",
+  "keywords": [
+    "images",
+    "photos",
+    "gallery",
+    "lightbox",
+    "youtube",
+    "vimeo",
+    "slider"
+  ],
+  "textdomain": "simply-gallery-block",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "editorStyle": "pgc_sgb_slider_style"
+}

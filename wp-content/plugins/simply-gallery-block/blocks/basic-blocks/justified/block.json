@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "pgcsimplygalleryblock/justified",
+  "title": "Justified",
+  "description": "Display multiple images in an organized justified gallery.",
+  "keywords": ["images", "photos", "gallery", "justified", "lightbox"],
+  "textdomain": "simply-gallery-block",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "editorStyle": "pgc_sgb_justified_style"
+}

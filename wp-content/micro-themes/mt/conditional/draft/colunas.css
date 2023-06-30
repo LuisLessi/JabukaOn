@@ -1,0 +1,52 @@
+
+/*= Colunas =================== */
+
+/** Colunas >> Link **/
+#cont_314c2d0e7015a8115a10f8bb8d917c50 {
+	
+}
+.ast-menu-shadow > li:nth-of-type(1) > a {
+	transform: scale(1.4, 1.4) !important;
+	-webkit-transition: transform 0.3s !important;
+	transition: transform 0.3s !important;
+}
+.ast-menu-shadow > li:nth-of-type(1) > a:hover {
+	transform: scale(1.2) !important;
+}
+.ast-menu-shadow > li:nth-of-type(2) > a {
+	-webkit-transition: transform 0.3s ease !important;
+	transition: transform 0.3s ease !important;
+}
+.ast-menu-shadow > li:nth-of-type(2) > a:hover {
+	transform: scale(1.2) !important;
+}
+.ast-menu-shadow > li:nth-of-type(3) > a {
+	-webkit-transition: transform 0.3s ease !important;
+	transition: transform 0.3s ease !important;
+}
+.ast-menu-shadow > li:nth-of-type(3) > a:hover {
+	transform: scale(1.2) !important;
+}
+.ast-menu-shadow > li:nth-of-type(4) > a {
+	-webkit-transition: transform 0.3s ease !important;
+	transition: transform 0.3s ease !important;
+}
+.ast-menu-shadow > li:nth-of-type(4) > a:hover {
+	transform: scale(1.2) !important;
+}
+.ast-menu-shadow > li:nth-of-type(5) > a {
+	-webkit-transition: transform 0.3s ease !important;
+	transition: transform 0.3s ease !important;
+}
+.ast-menu-shadow > li:nth-of-type(5) > a:hover {
+	transform: scale(1.2) !important;
+}
+
+/** Colunas >> Link _2 **/
+.ast-menu-shadow > li:nth-of-type(2) > a {
+	
+}
+#cont_314c2d0e7015a8115a10f8bb8d917c50 {
+	border-color: #C0C0C0 !important;
+}
+
