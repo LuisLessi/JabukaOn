@@ -21,6 +21,19 @@
 .wp-block-uagb-info-box {
 	margin-bottom: -40px !important;
 }
+.search-field {
+	background-color: red !important;
+	background-color: #C0C0C0 !important;
+	border-color: #b50422 !important;
+	height: 10% !important;
+}
+.search-form {
+	background-color: #C0C0C0 !important;
+	border-color: #b50422 !important;
+}
+.ast-above-header-bar {
+	background-color: #C0C0C0 !important;
+}
 
 
 /*( < 768 )*/
