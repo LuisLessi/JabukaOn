@@ -48,6 +48,29 @@
 .cultura {
 	margin-left: -9% !important;
 }
+.agenda {
+	margin-top: -100% !important;
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px !important;
+	background-color: #D62929 !important;
+	background-image: -webkit-linear-gradient(90deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.4) 50%, 											  transparent, 											  transparent) !important;
+}
+
+
+/*( < 980 )*/
+@media (max-width: 979.98px) {
+	/** Geral >> Uagb block 6269c632 **/
+	#post-12 .uagb-block-6269c632 {
+	
+}
+.agenda {
+	padding-top: 100% !important;
+}
+
+}
 
 
 /*( < 768 )*/
@@ -63,9 +86,38 @@
 	margin-left: 40% !important;
 	margin-bottom: 0.5% !important;
 	width: 70% !important;
+	padding-right: 30% !important;
 }
 .title_all {
 	margin-bottom: 0.5% !important;
+}
+
+}
+
+
+/*( < 480 )*/
+@media (max-width: 479.98px) {
+	/** Geral >> Uagb block 6269c632 **/
+	#post-12 .uagb-block-6269c632 {
+	
+}
+.banner_evento {
+	padding-right: 10% !important;
+	padding-left: 20% !important;
+}
+
+}
+
+
+/*( < 375 )*/
+@media (max-width: 474.98px) {
+	/** Geral >> Uagb block 6269c632 **/
+	#post-12 .uagb-block-6269c632 {
+	
+}
+.banner_evento {
+	padding-right: 10% !important;
+	padding-left: 10% !important;
 }
 
 }
