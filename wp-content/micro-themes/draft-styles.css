@@ -123,5 +123,31 @@ body::-webkit-scrollbar-thumb {
 	padding-left: 20% !important;
 }
 
+	/** Geral >> .ast-builder-grid-row-container **/
+	.site-below-footer-wrap {
+	
+}
+.banner_cultura {
+	width: 80% !important;
+}
+.title_cultura {
+	width: 80% !important;
+	margin-left: 30% !important;
+}
+
+}
+
+
+/*( < 320 )*/
+@media (max-width: 319.98px) {
+	/** Geral >> .ast-builder-grid-row-container **/
+	.site-below-footer-wrap {
+	
+}
+.title_cultura {
+	width: 110% !important;
+	margin-top: 90% !important;
+}
+
 }
 
