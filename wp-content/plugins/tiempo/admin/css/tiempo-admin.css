@@ -1,0 +1,47 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.form-line {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.widget-width-line{
+    margin-bottom: 10px;
+}
+
+.form-line .text-label {
+    width: 70px;
+    display: block;
+}
+
+.form-line input[type="text"] {
+    width: 150px;
+    display: block;
+    padding: 3px 8px;
+}
+
+.form-line input[type="color"] {
+    width: 80px;
+    display: block;
+    padding: 1px 3px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.form-line input[type="checkbox"] {
+    margin-top: 0px;
+    margin-right: 8px;
+}
+
+.form-line input[type=radio]{
+    margin-left: 18px;
+    margin-top: 0px;
+}
+
+.form-section {
+    margin-bottom: 41px;
+}

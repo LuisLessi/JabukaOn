@@ -3,8 +3,8 @@
 
 /*= Geral ===================== */
 
-/** Geral >> Uagb block 6269c632 **/
-#post-12 .uagb-block-6269c632 {
+/** Geral >> Latest posts featured image **/
+.wp-elements-de86e2df1b2002ce15a2cb7a64d0e58f .wp-block-latest-posts__featured-image {
 	padding-bottom: 35px !important;
 	margin-bottom: -44px !important;
 	margin-left: -40px !important;
@@ -59,40 +59,54 @@ body::-webkit-scrollbar-thumb {
 											  rgba(0, 0, 0, 0.4) 50%, 											  transparent, 											  transparent) !important;
 }
 .banner_evento {
+	margin-right: -3% !important;
+}
+.container_noticia:hover {
+	/* Define o efeito de zoom quando o mouse passa sobre a div */
+	transform: scale(1.1) !important;
+	-webkit-transition: transform 0.3s ease !important;
+	transition: transform 0.3s ease !important;
+}
+.post_list img {
+	width: 230px !important;
+	height: 210px !important;
+}
+.wp-block-latest-posts__featured-image {
+	margin-left: 0px !important;
+}
+.ast-builder-grid-row-container {
+	background-color: red !important;
+}
+
+/** Geral >> .ast-builder-grid-row-container **/
+.site-below-footer-wrap {
+	background-color: #c0c0c0 !important;
+}
+.ast-above-header-bar.ast-above-header.site-header-focus-item {
+	background-image: url("https://localhost/jabuka/wordpress/wp-content/uploads/2023/07/background_navbar.png") !important;
 	margin-right: -9% !important;
 }
-
-
-/*( < 980 )*/
-@media (max-width: 979.98px) {
-	/** Geral >> Uagb block 6269c632 **/
-	#post-12 .uagb-block-6269c632 {
-	
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+	background-image: url("https://localhost/jabuka/wordpress/wp-content/uploads/2023/07/background_navbar.png") !important;
+	margin-right: -9% !important;
 }
-.agenda {
-	padding-top: 100% !important;
+#ast-hf-menu-1 {
+	margin-left: -12% !important;
 }
-
+.tiempo-widget {
+	border-color: #013950 !important;
+	height: 260px !important;
 }
 
 
 /*( < 768 )*/
 @media (max-width: 767.98px) {
-	/** Geral >> Uagb block 6269c632 **/
-	#post-12 .uagb-block-6269c632 {
+	/** Geral >> .ast-builder-grid-row-container **/
+	.site-below-footer-wrap {
 	
 }
-.cultura {
-	margin-left: 9% !important;
-}
-.title_cultura {
-	margin-left: 40% !important;
-	margin-bottom: 0.5% !important;
-	width: 70% !important;
-	padding-right: 30% !important;
-}
-.title_all {
-	margin-bottom: 0.5% !important;
+.main_carrousel {
+	margin-top: 5% !important;
 }
 
 }
@@ -100,27 +114,13 @@ body::-webkit-scrollbar-thumb {
 
 /*( < 480 )*/
 @media (max-width: 479.98px) {
-	/** Geral >> Uagb block 6269c632 **/
-	#post-12 .uagb-block-6269c632 {
+	/** Geral >> Latest posts featured image **/
+	.wp-elements-de86e2df1b2002ce15a2cb7a64d0e58f .wp-block-latest-posts__featured-image {
 	
 }
 .banner_evento {
 	padding-right: 10% !important;
 	padding-left: 20% !important;
-}
-
-}
-
-
-/*( < 375 )*/
-@media (max-width: 474.98px) {
-	/** Geral >> Uagb block 6269c632 **/
-	#post-12 .uagb-block-6269c632 {
-	
-}
-.banner_evento {
-	padding-right: 10% !important;
-	padding-left: 10% !important;
 }
 
 }

@@ -6,7 +6,7 @@ Tags: block, image gallery, video gallery, lightbox, gallery, wordpress gallery 
 Requires at least: 5.8.0
 Tested up to: 6.2
 Requires PHP: 5.3.8
-Stable tag: 3.1.4
+Stable tag: 3.1.5
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,7 +127,11 @@ Yes! SimpLy Gallery Blocks's core features are absolutely free.
 
 == Changelog ==
 
-= 3.1.3 =
+= 3.1.5 =
+Tweak: Updated Freemius SDK (2.5.10).
+Fix: Security fix.
+
+= 3.1.4 =
 * Update: Freemius SDK
 * Added: Gallery Settings -> 'Apply Global Preset' 
 * Optimized: Gallery Settings -> 'Use Global Preset'
