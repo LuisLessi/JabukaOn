@@ -15,6 +15,9 @@ class Logic {
 
 	protected $debug = false;
 	protected $test = false;
+	public static $cache = array(
+		'conditions' => array(),
+	);
 	protected $statementCount = 0;
 
 	// parenthesis parsing variables
@@ -27,7 +30,7 @@ class Logic {
 
 	// Regex patterns for reading logic
 	protected $patterns = array(
-		"andOrOptSpace" => "/\s*\b(and|AND|or|OR)\b\s*/",
+		"andOrSurrSpace" => "/\s+\b(and|AND|or|OR)\b\s+/",
 		"functionName" => "(!)?\s*[a-zA-Z_\\\\]+",
 		"comparison" => "/\s*(?<comparison><=|<|>|>=|!==?|===?)\s*/",
 		"expressions" => array(
@@ -75,6 +78,7 @@ class Logic {
 
 
 		// custom namespaced Microthemer functions
+		'\\'.__NAMESPACE__.'\has_template',
 		'\\'.__NAMESPACE__.'\is_active',
 		'\\'.__NAMESPACE__.'\is_admin_page',
 		'\\'.__NAMESPACE__.'\is_public',
@@ -154,7 +158,7 @@ class Logic {
 	protected function splitStatements($value){
 
 		return preg_split(
-			$this->patterns["andOrOptSpace"],
+			$this->patterns["andOrSurrSpace"],
 			trim($value),
 			-1,
 			PREG_SPLIT_NO_EMPTY|PREG_SPLIT_DELIM_CAPTURE
@@ -695,6 +699,33 @@ class Logic {
 		);
 	}
 
+
+	// Integrations
+	public static function getBricksTemplateIds($template_id, &$template_ids, $content_type = 'nested'){
+
+		if (is_numeric($template_id) && $template_id > 0
+		    && !isset($template_ids[$template_id])
+		    && !\Bricks\Database::is_template_disabled($content_type)) {
+
+			$template_ids[intval($template_id)] = $content_type;
+			$meta_key = $content_type === 'header'
+				? BRICKS_DB_PAGE_HEADER
+				: ($content_type === 'footer'
+					? BRICKS_DB_PAGE_FOOTER
+					: BRICKS_DB_PAGE_CONTENT);
+			$bricks_data = get_post_meta( $template_id, $meta_key, true );
+
+			if (is_array($bricks_data)){
+				foreach($bricks_data as $item){
+					if (!empty($item['settings']['template'])){
+						Logic::getBricksTemplateIds($item['settings']['template'], $template_ids);
+					}
+				}
+			}
+		}
+
+	}
+
 }
 
 /*
@@ -774,4 +805,33 @@ function match_url_path($value = null, $regex = false){
 	return $regex
 		? preg_match('/'.$value.'/', $urlPath)
 		: strpos($urlPath, $value) !== false;
+}
+
+function has_template($source = null, $id = null, $label = null){
+
+	global $post;
+
+	$cache = !empty(Logic::$cache[$source]['template_ids']) ? Logic::$cache[$source]['template_ids'] : false;
+	$template_ids = $cache ?: array();
+
+	if (!$source || !$id){
+		return false;
+	} if ($cache){
+		return !empty($cache[$id]);
+	}
+
+	// maybe populate template_ids
+	switch ($source) {
+		case 'bricks':
+			if ( \Bricks\Helpers::render_with_bricks($post->ID) ) {
+				foreach (\Bricks\Database::$active_templates as $content_type => $template_id){
+					Logic::getBricksTemplateIds($template_id, $template_ids, $content_type);
+				}
+			}
+			break;
+		case 'elementor': // todo
+			break;
+	}
+
+	return !empty($template_ids[$id]);
 }
