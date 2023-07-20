@@ -1,5 +1,28 @@
 == Changelog ==
 
+= 1.8.2.3 =
+- Changed: Admin notice content and design is improved.
+- Changed: We optimized the Help screen performance within the Form Builder.
+- Fixed: The query string rewrite module from the 7G Firewall plugin was conflicting with the WPForms block in the Block Editor.
+- Fixed: Payment fields were not inheriting a newly updated currency from the WPForms Settings > Payments page.
+- Fixed: When duplicating a field in the Form Builder, the options panel for the newly duplicated field was not consistently active.
+- Fixed: WPForms admin area was using a site language instead of the currently logged-in user language if languages were different.
+- Fixed: When an email field contained long words without spaces, words were not properly wrapped.
+- Fixed: Form settings were not reflecting new template settings when switching those templates.
+- Fixed: WPForms Challenge pointers were overlapping text labels in some languages.
+- Fixed: In some cases, the page with a form on the front end was not scrolled to the error field.
+- Fixed: The Dropdown border width was wrong when the input was smaller than the dropdown.
+- Fixed: It was possible to resize the Paragraph field larger than the containers.
+- Fixed: Empty option was replaced with the default one for a duplicated dropdown.
+- Fixed: There was a fatal error on the Analytics page if the MonsterInsights Lite plugin was active.
+- Fixed: Form Location title and slug were incorrect after updating a post with that form embedded.
+- Fixed: The "From Email" option validation message was invisible when the WP Mail SMTP plugin was active.
+- Fixed: PHP warning 'Illegal string offset' appeared on some sites.
+- Fixed: Placeholder text in the Dynamic choices of the Dropdown field was not displayed when the field was duplicated.
+- Fixed: The "Let's Go!" button inside the Form Embed screen was disabled after the page title change.
+- Fixed: Bulk option labels were not inline in some languages.
+- Fixed: Some field titles were broken in Safari in the Twenty Twenty-One theme.
+
 = 1.8.2.2 =
 - Added: Developers can now use a new hook that is fired when the form is duplicated.
 - Fixed: A PHP deprecation notice was generated when enabling or disabling auto-updates of any plugin.

@@ -1,5 +1,14 @@
 CHANGELOG
 
+= 7.2.3.7 (July 18th, 2023) =
+
+# Change
+* Microthemer does not automatically set the order of selectors within folders when adjusting the selector code, only when selectors are first created (and the Auto folder option is enabled).
+
+# Bugs fixed
+* Deleting a design pack did not work if a design pack screenshot had been uploaded.
+* Syncing the editor and UI did not work on certain properties since the 7.2.3.5 update 6 days ago.
+
 = 7.2.3.6 (July 14th, 2023) =
 
 # Bugs fixed

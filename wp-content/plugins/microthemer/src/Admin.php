@@ -4101,7 +4101,7 @@ class Admin {
 		// if no revisions, explain
 		if ($total_rows == 0) {
 			return '<span class="no-revisions-table">' .
-			       esc_html__('No Revisions have been created yet. This will happen after your next save.', 'microthemer') .
+			       esc_html__('No revisions have been created.', 'microthemer') .
 			       '</span>';
 		}
 
@@ -11253,13 +11253,18 @@ class Admin {
 		$error = false;
 		// loop through files if they exist
 		if (is_array($this->file_structure[$dir_name])) {
-			foreach ($this->file_structure[$dir_name] as $file => $junk) {
+			foreach ($this->file_structure[$dir_name] as $file => $oneOrFileName) {
+
+                // there is an odd inconsistency with screenshot key referring to a filename
+                // rather than the key being the file name
+				$file = $oneOrFileName == 1 ? $file : $oneOrFileName;
+
 				if (!unlink($this->micro_root_dir . $dir_name.'/'.$file)) {
 					$this->log(
 						esc_html__('File delete error', 'microthemer'),
 						'<p>' . esc_html__('Unable to delete: ', 'microthemer') .
 						$this->root_rel($this->micro_root_dir .
-						                $dir_name.'/'.$file) . print_r($this->file_structure[$dir_name], true). '</p>'
+						                $dir_name.'/'.$file) . print_r($this->file_structure, true). '</p>'
 					);
 					$error = true;
 				}
