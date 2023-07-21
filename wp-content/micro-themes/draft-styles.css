@@ -154,13 +154,10 @@ body::-webkit-scrollbar-thumb {
 	width: 75% !important;
 }
 .div-visao, 
-.div-missao {
-	border-right: 4px solid black !important;
-	padding-right: 10px !important;
-}
-.div-visao, 
 .div-missao, 
 .div-valores {
+	border: 2.5px solid black !important;
+	padding-right: 10px !important;
 	-webkit-transition: transform 0.3s ease !important;
 	transition: transform 0.3s ease !important;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
