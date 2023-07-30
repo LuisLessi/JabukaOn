@@ -1604,6 +1604,7 @@ require_once('common-inline-assets.php');
 
                     <div class="heading error-reporting-heading">
                         <span>Error reporting</span>
+                        <span id="toggle-preview-report-data" class="link toggle-preview-report-data" title="Preview the data Microthemer will send">Preview</span>
                         <span class="tvr-button tvr-gray mt-manual-error-report" title="Send error report">Send report</span>
                     </div>
 
@@ -1616,9 +1617,9 @@ require_once('common-inline-assets.php');
                             ? $this->reporting['max']['dataSends'] . ' times'
                             : 'once';
                         $reportTypes = array(
-                              'file' =>  "While using Microthemer, send info about JS errors in plugins / themes (for conflict resolution)",
+                              'file' =>  "Send info about JS errors in plugins / themes while using MT (for conflict resolution)",
                               'data' =>  "Include non-sensitive Microthemer settings for error replication and UX fixes (".$freq." a day max)",
-                              'contact' =>  "Include your Themeover account number (for debugging follow-up questions)",
+                              'contact' =>  "Include your domain & Themeover account number (for debugging follow-up questions)",
                         );
 
                         foreach ($reportTypes as $key => $label){
@@ -1645,6 +1646,7 @@ require_once('common-inline-assets.php');
                     </div>
 
 
+
                 </div>
 
                 <div class="setup-review-mt">
@@ -1652,6 +1654,16 @@ require_once('common-inline-assets.php');
                     <p class="setup-section-intro">If you like Microthemer, please consider giving it 5 stars on wordpress.org</p>
                     <p><a target="_blank" href="https://wordpress.org/plugins/microthemer/#reviews">Leave a quick review</a></p>
 
+                </div>
+
+                <div id="data-send-preview">
+                    <div class="mt-panel-header">
+                        <div class="mt-panel-title ui-draggable-handle">Error reporting data Microthemer will send</div>
+                        <span class="mtif mtif-times-circle-regular toggle-preview-report-data"></span>
+                    </div>
+                    <div class="report-data-dump">
+                        <pre></pre>
+                    </div>
                 </div>
 
             </div>

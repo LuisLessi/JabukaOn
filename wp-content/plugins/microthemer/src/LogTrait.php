@@ -136,27 +136,26 @@ trait LogTrait {
 			: null;
 		$postLimit = $this->reporting['max'][($manual ? 'manual' : 'auto')];
 		$payload   = array(
+			'pro'           => !empty($this->preferences['buyer_validated']) ? 1 : 0,
+			'manual'        => $manual ? 1 : 0,
+			'onboard'       => $onboard ? 1 : 0,
+			'partial'       => 0,
+			'size'          => 0,
+			'layout_preset' => $this->preferences['suggested_layout'],
 			'site_id'       => $reporting['anonymous_id'],
+			'member_id'     => $contactPermission && $member_id ? $member_id : null,
+			'domain'     => $contactPermission && isset($post['domain']) ? $post['domain'] : null,
 			'vendor'     => isset($post['vendor']) ? $post['vendor'] : null,
 			'vendor_type'     => isset($post['vendor_type']) ? $post['vendor_type'] : null,
-			'mt_key'        => '_$e-ICYJD5,IX;<voO`-Qu@A',
 			'version'       => $this->version,
-			'member_id'     => $contactPermission && $member_id ? $member_id : null,
-			'pro'           => !empty($this->preferences['buyer_validated']) ? 1 : 0,
-			'user_date'     => date('Y-m-d'), // for matching up with history
+			'note'          => '',
 			'error_message'     => isset($post['error_message']) ? $post['error_message'] : null,
 			'error_key'     => isset($post['error_key']) ? $post['error_key'] : null,
 			'error_stack'     => isset($post['error_stack']) ? $post['error_stack'] : null,
 			'context'       => isset($post['context']) ? json_encode($post['context'], true) : null,
-			'reporting'     => isset($post['reporting']) ? json_encode($post['reporting'], true) : null,
-			'manual'        => $manual ? 1 : 0,
-			'domain'        => isset($post['domain']) ? $post['domain'] : null,
-			'onboard'       => $onboard ? 1 : 0,
-			'layout_preset' => $this->preferences['suggested_layout'],
+			//'reporting'     => isset($post['reporting']) ? json_encode($post['reporting'], true) : null, // if we need to debug
 			'history'       => $this->getRevisionActionsAsString($onboard),
-			'note'          => '',
-			'partial'       => 0,
-			'size'          => 0,
+
 		);
 
 		// if they have given permission to send data
@@ -204,9 +203,14 @@ trait LogTrait {
 				}
 			}
 
-			$payload['analysis'] = $analysis;
+			//$payload['analysis'] = $analysis; // for debugging
 			$payload['size'] = $this->bytesToMB($analysis['total_size']);
 
+		}
+
+		// show user what MT is sending if this is a preview
+		if (!empty($post['preview'])){
+			return print_r($payload, 1);
 		}
 
 		// Post the payload to Themeover
@@ -284,7 +288,7 @@ trait LogTrait {
 
 	function getRevisionActionsAsString($onboard){
 
-		$history_limit = $onboard ? intval($this->preferences['num_history_points']) : 5;
+		$history_limit = $onboard ? intval($this->preferences['num_history_points']) : 2;
 
 		global $wpdb;
 		$table_name = $wpdb->prefix . "micro_revisions";
@@ -297,7 +301,7 @@ trait LogTrait {
 			ARRAY_A
 		);
 
-		return $rows ? serialize($rows) : null;
+		return $rows ? strip_tags( serialize($rows) ) : null;
 	}
 
 }

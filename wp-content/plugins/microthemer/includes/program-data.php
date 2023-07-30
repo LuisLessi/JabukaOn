@@ -24,7 +24,7 @@ $this->permissionshelp = esc_html__('Please see this help article for changing d
 
 // moved to constructor because __() can't be used on member declarations
 $this->edge_mode = array(
-	'available' => true,
+	'available' => false,
 	'edge_forum_url' => 'https://themeover.com/forum/topic/were-trialling-automatic-error-reporting/',
 	'cta' => __("Enable automatic error reporting so we can make Microthemer error free!", 'microthemer'),
 	'config' => array(

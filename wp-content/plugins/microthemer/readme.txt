@@ -79,6 +79,17 @@ I've been happily developing Microthemer and supporting users of varying technic
 
 == Changelog ==
 
+= 7.2.3.9 (July 26th, 2023) =
+
+# Bugs fixed
+* Microthemer did not notify about user JS errors when working with the full code JS editor.
+
+= 7.2.3.8 (July 25th, 2023) =
+
+# Enhancement
+* Added a preview link to the error reporting options, so you can see exactly what data MT will send depending on which checkboxes are ticked.
+* Microthemer sends error reports for unique JavaScript errors it discovers on your site while using Microthemer (edge mode is no longer required).
+
 = 7.2.3.7 (July 18th, 2023) =
 
 # Change

@@ -895,7 +895,7 @@ trait AdminInitTrait {
 
 				if ($manual || TVR_DEV_MODE){
 					echo json_encode(array(
-						'html'=> '<div id="microthemer-notice">'. $this->display_log() . '</div>',
+						//'html'=> '<div id="microthemer-notice">'. $this->display_log() . '</div>',
 						'response' => $response,
 						'success' => !!$response
 					));
