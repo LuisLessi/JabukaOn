@@ -172,8 +172,17 @@ body::-webkit-scrollbar-thumb {
 .grade .uagb-post__inner-wrap {
 	height: 95% !important;
 }
-.menu-item-320 {
-	
+p {
+	text-align: justify !important;
+}
+.joinchat__button {
+	transform: scale(0.75) !important;
+}
+.custom-logo {
+	margin-left: -5% !important;
+}
+.p {
+	margin-left: ;
 }
 
 
@@ -233,6 +242,17 @@ body::-webkit-scrollbar-thumb {
 .title_cultura {
 	width: 80% !important;
 	margin-left: 30% !important;
+}
+.wp-block-latest-posts__featured-image {
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;
+	display: flex !important;
+	-webkit-justify-content: center !important;
+	justify-content: center !important;
+	-webkit-align-items: center !important;
+	align-items: center !important;
 }
 
 }

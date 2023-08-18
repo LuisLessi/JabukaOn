@@ -1,5 +1,19 @@
 CHANGELOG
 
+= 7.2.4.1 (August 3rd, 2023) =
+
+# Change
+* Automatic error reports only send MT settings for specific errors, even if permission is enabled. I can fix most errors without this additional info, so have switched to a system of explicitly defining errors that should be accompanied by data.
+
+# Bugs fixed
+* CSS grid highlighting could linger on when switching between selectors in some cases.
+
+= 7.2.4.0 (July 31st, 2023) =
+
+# Bugs fixed
+* Possible error message could display on the frontend if an empty string was passed into a folder logic condition: Cannot parse $parameterString.
+* Microthemer was not targeting draft pages correctly if the Auto folder option was enabled (because the page slug was not yet set).
+
 = 7.2.3.9 (July 26th, 2023) =
 
 # Bugs fixed

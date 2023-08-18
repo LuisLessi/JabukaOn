@@ -1,5 +1,38 @@
 == Changelog ==
 
+= 1.8.3.1 =
+- Fixed: There were situations when Stripe Credit Card field wasn't working properly in Elementor.
+
+= 1.8.3 =
+- Added: New `{site_name}` smart tag.
+- Added: Fields in the Form Builder can now be searched by name or related keywords.
+- Changed: Adjusted error message for Stripe subscription payment failure.
+- Changed: Elementor integration updated and improved.
+- Changed: Improved cache busting of entry counts on the Dashboard widget.
+- Changed: Anti-spam processing significantly improved.
+- Changed: Various notifications for users without required permissions have been improved.
+- Changed: Updated DOMPurify library to 3.0.5.
+- Changed: Sidebar in the Form Builder now can be collapsed or expanded with a `Ctrl + T` keyboard shortcut.
+- Changed: Updated Icon Choices Font Awesome library to 6.4.0.
+- Changed: Improved empty states for blocks/widgets on Gutenberg and Elementor editor.
+- Fixed: Submit button font family was not inherited from theme styles.
+- Fixed: No spacing between the field label and the field on Settings pages.
+- Fixed: Handling of string to array conversion type error in rare cases when the option in the database contained malformed value.
+- Fixed: Improved the preview for the Dropdown choices with HTML tags in the Form Builder.
+- Fixed: Stripe Payment fields previously ignoring "Include Form Styling" setting.
+- Fixed: Improved responsive styles for multiple choice controls on the Settings pages.
+- Fixed: Removed redundant space between Stripe credit card sub-fields when sub-labels are hidden.
+- Fixed: Handling console error on post/page edit screen when not connected to Stripe.
+- Fixed: Handling a PHP Notice that was generated when the legacy API is used for Stripe payments.
+- Fixed: Revised link to Comprehensive Guide in the Elementor WPForms widget.
+- Fixed: Akismet anti-spam check could be skipped in certain cases.
+- Fixed: Stripe Payment field displaying a warning sign with an empty error message when card validation failed.
+- Fixed: Hierarchical Dynamic Choices list that resulted in a PHP timeout error when the list was more than 3 levels deep.
+- Fixed: CAPTCHA badge preventing the Divi Visual Builder preview from loading.
+- Fixed: Inconsistent email validation between front-end and server.
+- Fixed: Form Location title or slug occasionally not updating after updating a post.
+- Fixed: Buttons in the confirmation modal that were not aligned correctly if they didn't fit in one line.
+
 = 1.8.2.3 =
 - Changed: Admin notice content and design is improved.
 - Changed: We optimized the Help screen performance within the Form Builder.

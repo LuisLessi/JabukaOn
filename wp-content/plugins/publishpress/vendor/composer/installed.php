@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'name' => 'publishpress/publishpress',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'bf15e64a24abb8a6f7702ba7f98eb2ad13e53992',
-        'type' => 'library',
+        'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
+        'reference' => '6c35de8eff49022fb324fad49bc96989be33d2cb',
+        'name' => 'publishpress/publishpress',
         'dev' => false,
     ),
     'versions' => array(
         'publishpress/publishpress' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'bf15e64a24abb8a6f7702ba7f98eb2ad13e53992',
-            'type' => 'library',
+            'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+            'reference' => '6c35de8eff49022fb324fad49bc96989be33d2cb',
             'dev_requirement' => false,
         ),
     ),

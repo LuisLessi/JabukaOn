@@ -387,7 +387,7 @@ class Logic {
 					$parsedParameter = $this->parseStatement($parameterString);
 
 					if (!$parsedParameter){
-						echo 'Cannot parse $parameterString: ' . $parameterString . '<br />';
+						$this->debug('Cannot parse $parameterString: ' . $parameterString);
 					} else {
 						$parameters[$i] = $this->statementResult($parsedParameter);
 					}

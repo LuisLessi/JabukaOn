@@ -3,9 +3,9 @@ Contributors: brainstormforce
 Donate link: https://www.paypal.me/BrainstormForce
 Tags: gutenberg, blocks, gutenberg blocks, editor, block
 Requires at least: 5.6
-Requires PHP: 5.6
-Tested up to: 6.2.2
-Stable tag: 2.7.2
+Requires PHP: 7.4
+Tested up to: 6.3.0
+Stable tag: 2.7.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -214,6 +214,40 @@ When you use the Spectra along with the free Astra theme, you get a huge library
 Our external packages use [Rating Star Component](https://github.com/n49/react-stars) that are distributed under the terms of the ISC. While [Slick](https://github.com/akiran/react-slick), [Lottie](https://github.com/chenqingspring/react-lottie) and [Striptags](https://github.com/ericnorris/striptags) is distributed under the terms of the MIT.
 
 == Changelog ==
+
+= 2.7.5 - WEDNESDAY, 16th AUGUST 2023 =
+* Improvement: Container - Added an opacity setting for the overlay of the image and video background types.
+* Improvement: Info Box - Added heading tag settings for the prefix.
+* Improvement: Info Box - Added an inherit-from-theme option for the text-type CTA.
+* Improvement: Form - Added an inherit-from-theme option for the submit button styling.
+* Improvement: Global - Enhanced the reusable block functionality for the following blocks: Review, Content Timeline, Post Timeline, Price List, Separator, Social Share, Star Rating, Table Of Contents, Taxonomy List, Team, Testimonials.
+* Fix: Call To Action - Resolved an issue in which the bottom margins of the title and description would not work as intended for Tablet and Mobile devices on the frontend.
+* Fix: Blockquote - Resolved an issue wherein having '#' or '@' symbols in the description would result in the removal of content following the symbols when shared on Twitter.
+* Fix: Post Carousel - Resolved an issue wherein the carousel dots would not appear centered.
+* Fix: Social Share - Resolved an issue wherein the gap between icons would add unwanted margins to the sides of the wrapper.
+* Fix: Testimonials - Resolved an issue wherein the Testimonial dots would not appear centered.
+* Fix: Global - Resolved an issue that was encountered when updating to WordPress 6.3 on some websites.
+* Fix: Global - Resolved an issue wherein the color-picker default icon would not appear in WordPress 6.3.
+* Fix: Admin - Resolved an issue in which an undefined record could appear on the Instagram integrations page.
+
+= 2.7.4 - TUESDAY, 8th AUGUST 2023 =
+* Improvement: Core Blocks - Implemented responsive typography font-size units.
+* Improvement: Image - Added a new `Custom Size` feature, which will maintain the dimensions set when the image is replaced!
+* Improvement: Popup Builder - Moved page-level settings into block-level panels.
+* Improvement: Testimonial - Added a vertical alignment option for equal-height content.
+* Improvement: Global - Added a fresh new look for preset icons and rearranged some settings.
+* Improvement: Global - Updated the variation picker and media placeholder UI.
+* Improvement: Global - Enhanced the reusable block functionality for the following blocks: Container, Blockquote, Counter, FAQ, Forms.
+* Fix: Call To Action - Resolved an issue wherein the line-height of the title would not appear responsive in the frontend.
+* Fix: Forms - Resolved an issue wherein the submit button would not utilize the padding set in the customizer.
+* Fix: Inline Notice - Updated inconsistent default padding and removed unwanted top-margin in the editor and the frontend.
+* Fix: Testimonial - Resolved an issue in which an extra margin would appear for the content in the mobile view.
+* Fix: Global - Resolved an issue in which the spacing between the text and the icon in buttons would not be applied as intended in RTL mode for certain blocks.
+
+= 2.7.3 - MONDAY, 31st JULY 2023 =
+* Improvement: Core Blocks - Enhanced the reusable block functionality for all Core Blocks, with the exception of the Container.
+* Improvement: Global - Optimized the editor performance and stability.
+* Fix: Global - Prevented a fatal error for non-block-based themes in WordPress versions below 5.9.0.
 
 = 2.7.2 - THURSDAY, 27th JULY 2023 =
 * Fix: Forms - Resolved an issue in which some phone country-code colors would not work as intended in the editor.
@@ -1502,3 +1536,11 @@ Our external packages use [Rating Star Component](https://github.com/n49/react-s
 
 = 0.0.1 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 2.7.4 =
+With WordPress 6.3 no longer supporting older versions of PHP, the next Spectra release will also require a minimum of PHP 7.4. For websites running on older version of PHP, we strongly recommend upgrading to PHP 7.4 or above to ensure optimal performance and compatibility.
+
+= 2.7.3 =
+We've optimized the internal structure of Spectra in this update. To ensure your website's safety, We recommend that you backup your website before updating.

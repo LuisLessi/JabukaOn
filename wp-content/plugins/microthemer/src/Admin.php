@@ -187,6 +187,10 @@ class Admin {
 		)
 	);
 
+    private $errorsRequiringData = array(
+		//'frontend.js|306|7|Uncaught ReferenceError: consol is not defined' => 1 // paste error key(s) here
+	);
+
 	function __construct(){
 		$this->init();
 	}

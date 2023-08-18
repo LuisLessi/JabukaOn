@@ -159,7 +159,11 @@ trait LogTrait {
 		);
 
 		// if they have given permission to send data
-		if ($dataPermission && !$dataQuotaReached) {
+		// don't send data routinely even if permission is set
+		// (may change this if I need to set TvrUi.errorsRequiringData keys regularly)
+		if ($dataPermission &&
+		    !$dataQuotaReached &&
+		    ($manual || !empty($this->errorsRequiringData[$payload['error_key']]))) {
 
 			// include the domain name
 			$serverMaxBytes = $this->sizeStringToBytes(ini_get('post_max_size')) - 1024;
