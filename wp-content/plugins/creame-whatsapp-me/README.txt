@@ -5,7 +5,7 @@ Tags: Chat, Click to Chat, Facebook Messenger, WhatsApp, Telegram, Whatsapp Busi
 Requires at least: 4.5.0
 Tested up to: 6.3
 Requires PHP: 5.5
-Stable tag: 5.0.7
+Stable tag: 5.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -380,6 +380,10 @@ Joinchat save two localStorage variables for proper operation:
 
 
 == Changelog ==
+
+= 5.0.8 =
+* CHANGED Tested up to WordPress 6.3.
+* NEW: For developers: added filter 'joinchat_enqueue_qr'.
 
 = 5.0.7 =
 * **NEW:** Added url triggers hash `#joinchat` or query param `?joinchat`.
