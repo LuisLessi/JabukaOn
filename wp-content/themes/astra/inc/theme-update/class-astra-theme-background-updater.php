@@ -117,6 +117,15 @@ if ( ! class_exists( 'Astra_Theme_Background_Updater' ) ) {
 			'4.1.4' => array(
 				'astra_theme_background_updater_4_1_4',
 			),
+			'4.1.6' => array(
+				'astra_theme_background_updater_4_1_6',
+			),
+			'4.2.0' => array(
+				'astra_theme_background_updater_4_2_0',
+			),
+			'4.2.2' => array(
+				'astra_theme_background_updater_4_2_2',
+			),
 		);
 
 		/**
