@@ -187,6 +187,10 @@ p {
 .wpforms-submit {
 	background-color: #b50422 !important;
 }
+.size-full {
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}
 
 
 /*( < 980 )*/
