@@ -1,5 +1,10 @@
 CHANGELOG
 
+= 7.2.4.2 (September 1st, 2023) =
+
+# Bugs fixed
+* Error publishing settings on Cloudways hosting since a recent Cloudways server update. This happened if the "Minify CSS" option was enabled in preferences.
+
 = 7.2.4.1 (August 3rd, 2023) =
 
 # Change

@@ -4,7 +4,7 @@ Contributors: bastywebb, joseluiscruz, ahrale
 Donate link: http://themeover.com/microthemer/
 Tags: css, customize, visual editor, google fonts, responsive
 Requires at least: 6.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -78,6 +78,11 @@ I've been happily developing Microthemer and supporting users of varying technic
 5. Start customizing the appearance of your site.
 
 == Changelog ==
+
+= 7.2.4.2 (September 1st, 2023) =
+
+# Bugs fixed
+* Error publishing settings on Cloudways hosting since a recent Cloudways server update. This happened if the "Minify CSS" option was enabled in preferences.
 
 = 7.2.4.1 (August 3rd, 2023) =
 
