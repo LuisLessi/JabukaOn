@@ -4,9 +4,9 @@ Plugin URI: https://simplygallery.co
 Contributors: gallerycreator
 Tags: block, image gallery, video gallery, lightbox, gallery, wordpress gallery plugin
 Requires at least: 5.8.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.3.8
-Stable tag: 3.1.5
+Stable tag: 3.1.6
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,7 +44,7 @@ SimpLy Lightbox Plugin easily displays all linked images from a post or page in 
 
 * Albums
 * Build dynamic video galleries by simply adding a [YouTube Playlist](https://simplygallery.co/youtube-playlist/) *PRO
-* Build dynamic video galleries by simply adding a [Video Showcase / Album, User Uploads, Channel or Category](https://simplygallery.co/vimeo-showcase/) *PRO
+* Build dynamic Vimeo video galleries by simply adding a [Video Showcase / Album, User Uploads, Channel or Category](https://simplygallery.co/vimeo-showcase/) *PRO
 * Advanced Tags Filter. DeepLinking for tags. Filter without button "All" [Demo](https://simplygallery.co/advanced-tag-filter/) *PLUS/PRO
 * WooCommerce Products list, Categories and Tags - [Dynamic Gallery *PRO](https://simplygallery.co/woocommerce-products-gallery/)
 * Media Library Assistant.  Att. Cattegory and Att. Tag - Dynamic Gallery *PRO
@@ -126,6 +126,9 @@ Please note that you easily convert block gallery from Masonry to Justified or t
 Yes! SimpLy Gallery Blocks's core features are absolutely free.
 
 == Changelog ==
+
+= 3.1.6 =
+* Update: Freemius SDK
 
 = 3.1.5 =
 Tweak: Updated Freemius SDK (2.5.10).

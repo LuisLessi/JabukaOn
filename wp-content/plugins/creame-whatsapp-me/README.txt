@@ -5,7 +5,7 @@ Tags: Chat, Click to Chat, Facebook Messenger, WhatsApp, Telegram, Whatsapp Busi
 Requires at least: 4.5.0
 Tested up to: 6.3
 Requires PHP: 5.5
-Stable tag: 5.0.8
+Stable tag: 5.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -162,10 +162,10 @@ Extend Joinchat with awesome features:
 **Simple funnels like a messaging chatbot.** Create lead capture, qualification or support funnels by simulating conversations with a chatbot.
 
 #### 🤹🏻‍♂️ [Create Support Agents](https://join.chat/en/addons/support-agents/?utm_source=wporg&utm_medium=web).
-**A contact button with multiple WhatsApp numbers.** Avoid collapsing your support, pre-sales or orders chat. Add as many WhatsApp numbers as you have support or sales staff. Your customers will randomly access each of them distributing the workload evenly.
+**Contact buttons for each agent with availability times.** Manage multiple WhatsApp accounts with their name, department and working hours. Your visitors will be able to contact the agent of their choice and know how long it will be until the agents are available.
 
 #### 🎲 [Random Phone](https://join.chat/en/addons/random-phone/?utm_source=wporg&utm_medium=web).
-**Contact buttons for each agent with availability times.** Manage multiple WhatsApp accounts with their name, department and working hours. Your visitors will be able to contact the agent of their choice and know how long it will be until the agents are available.
+**A contact button with multiple WhatsApp numbers.** Avoid collapsing your support, pre-sales or orders chat. Add as many WhatsApp numbers as you have support or sales staff. Your customers will randomly access each of them distributing the workload evenly.
 
 #### 📡 [OmniChannel](https://join.chat/en/addons/omnichannel/?utm_source=wporg&utm_medium=web).
 **Add more contact channels.** Allows you to add more contact channels (from more than 10 apps) in addition to WhatsApp. Now you can add Telegram, Facebook Messenger, Tiktok, Snapchat, SMS, phone calls, Skype, FaceTime and more.
@@ -381,12 +381,16 @@ Joinchat save two localStorage variables for proper operation:
 
 == Changelog ==
 
+= 5.0.9 =
+* FIX Term custom Joinchat settings not saved (introduced on v5.0).
+* NEW Prevent WP Rocket remove Joinchat styles.
+
 = 5.0.8 =
 * CHANGED Tested up to WordPress 6.3.
-* NEW: For developers: added filter 'joinchat_enqueue_qr'.
+* NEW for developers: added filter 'joinchat_enqueue_qr'.
 
 = 5.0.7 =
-* **NEW:** Added url triggers hash `#joinchat` or query param `?joinchat`.
+* **NEW** Added url triggers hash `#joinchat` or query param `?joinchat`.
 * FIX PHP warning "$script undefinned".
 
 = 5.0.6 =
@@ -407,11 +411,11 @@ Joinchat save two localStorage variables for proper operation:
 * FIX undefined constant on PHP < 8.
 
 = 5.0.0 =
-* **NEW:** Live Preview Panel on wp-admin settings page.
-* **NEW:** Onboarding page.
-* **NEW:** Custom CSS advanced field.
-* **NEW:** Added setting to clear all Joinchat data on uninstall.
-* **NEW:** Multi-language notice to inform about to set settings in main language.
+* **NEW** Live Preview Panel on wp-admin settings page.
+* **NEW** Onboarding page.
+* **NEW** Custom CSS advanced field.
+* **NEW** Added setting to clear all Joinchat data on uninstall.
+* **NEW** Multi-language notice to inform about to set settings in main language.
 * CHANGE Replace QR generator library (reduces 13.9kB, 4.8kB gzipped).
 * CHANGE Optimized, only load translations in admin pages.
 * CHANGE Better styles when chatbox has scroll.
