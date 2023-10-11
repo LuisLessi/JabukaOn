@@ -97,7 +97,7 @@ class Joinchat_Admin_Onboard {
 				<div id="joinchat_onboard">
 					<div class="joinchat__dialog"></div>
 				</div>
-				<svg style="width:0;height:0;position:absolute"><defs><clipPath id="joinchat__message__peak"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"/></clipPath></defs></svg>
+				<svg style="width:0;height:0;position:absolute"><defs><clipPath id="joinchat__peak_l"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"/></clipPath><clipPath id="joinchat__peak_r"><path d="M0 25.68V0c0 13.23 10.92 15.3 15.97 16.34 1.56.32 1.18 2.34 0 2.34-8.58 0-15.97-.1-15.97 7Z"/></clipPath>
 
 			</div>
 		<?php
@@ -201,6 +201,8 @@ class Joinchat_Admin_Onboard {
 			),
 			'step_news_yes'   => _x( 'OK, keep me posted', 'onboard', 'creame-whatsapp-me' ),
 			'step_news_no'    => _x( 'No, thanks', 'onboard', 'creame-whatsapp-me' ),
+			'step_inbox'      => _x( '👍 Perfect, we have just sent you an email to your account, visit your mailbox to confirm your subscription.', 'onboard', 'creame-whatsapp-me' ),
+			'step_inbox_next' => _x( 'Done!', 'onboard', 'creame-whatsapp-me' ),
 			'step_success'    => _x( '🥳 Great, <strong>Joinchat</strong> is up and running.', 'onboard', 'creame-whatsapp-me' ),
 			'step_fail'       => _x( '😖 Sorry, something went wrong.', 'onboard', 'creame-whatsapp-me' ),
 			'step_settings'   => ucfirst( __( 'go to Joinchat Settings', 'creame-whatsapp-me' ) ),

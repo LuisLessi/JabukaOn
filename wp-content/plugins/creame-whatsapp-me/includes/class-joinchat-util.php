@@ -48,11 +48,35 @@ class Joinchat_Util {
 		if ( is_array( $value ) ) {
 			return array_map( 'self::clean_input', $value );
 		} elseif ( is_string( $value ) ) {
+			$value = self::clean_nl( $value );
 			// Split lines, clean and re-join lines.
 			return implode( "\n", array_map( 'sanitize_text_field', explode( "\n", trim( $value ) ) ) );
 		} else {
 			return $value;
 		}
+	}
+
+	/**
+	 * Clean new line format
+	 *
+	 * @since  5.0.12
+	 * @param  string $value string to clean.
+	 * @return string string with "\n" new lines.
+	 */
+	public static function clean_nl( $value ) {
+		return str_replace( array( "\r\n", "\r" ), array( "\n", "\n" ), $value );
+	}
+
+	/**
+	 * Check if value is set and is 'yes'
+	 *
+	 * @since  5.0.12
+	 * @param  string $values array of values.
+	 * @param  string $key    value key to check.
+	 * @return string 'yes' or 'no'
+	 */
+	public static function yes_no( $values, $key ) {
+		return isset( $values[ $key ] ) && 'yes' === $values[ $key ] ? 'yes' : 'no';
 	}
 
 	/**
@@ -203,7 +227,7 @@ class Joinchat_Util {
 		);
 
 		// Split text into lines and apply replacements line by line.
-		$lines = explode( "\n", $string );
+		$lines = explode( "\n", self::clean_nl( $string ) );
 		foreach ( $lines as $key => $line ) {
 			$escaped_line = esc_html( $line );
 
@@ -393,6 +417,36 @@ class Joinchat_Util {
 		);
 
 		return add_query_arg( $args, "https://join.chat/$lang/$path" );
+
+	}
+
+	/**
+	 * Simple CSS minifier
+	 *
+	 * View (https://gist.github.com/MeanEYE/36d4abe94ea99014284628a50f5a6d9b).
+	 *
+	 * @since  5.0.11
+	 * @param  string $css CSS string.
+	 * @return string      minified CSS string.
+	 */
+	public static function min_css( $css ) {
+
+		if ( ! defined( 'SCRIPT_DEBUG' ) || ! SCRIPT_DEBUG ) {
+
+			$rules = array(
+				'/\/\*.*?(?=\*\/)\*\//imus'         => '',
+				'/([^\d])-?(0+)(px|pt|rem|em|vw|vh|vmax|vmin|cm|mm|m\%)/imus' => '\1\2',
+				'/\s*([>~:;,\[\]\{\}])\s*/imus'     => '\1',
+				'/\s*([\(\)])\s*([^+-\/\*\^])/imus' => '\1\2',
+				'/([\+])\s*([^\d])/imus'            => '\1\2',
+				'/#([\dabcdef])\1([\dabcdef])\2([\dabcdef])\3/imus' => '#\1\2\3',
+				'/;\}/imus'                         => '}',
+			);
+
+			$css = preg_replace( array_keys( $rules ), $rules, $css );
+		}
+
+		return $css;
 
 	}
 }

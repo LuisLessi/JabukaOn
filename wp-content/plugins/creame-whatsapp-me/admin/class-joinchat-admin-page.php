@@ -517,19 +517,16 @@ class Joinchat_Admin_Page {
 					break;
 
 				case 'custom_css':
-					if ( empty( $value ) ) {
-						$value = jc_common()->defaults( 'custom_css' );
-					}
-
 					$output = '<fieldset><legend class="screen-reader-text"><span>' . __( 'Custom CSS', 'creame-whatsapp-me' ) . '</span></legend>' .
 						'<p><label for="joinchat_custom_css">' . __( 'Add your own CSS code here to customize the appearance of Joinchat.', 'creame-whatsapp-me' ) . ' ' .
-						sprintf(
-							/* translators: %s: CSS tricks link. */
+						'<a href="#" class="joinchat_custom_css_prefill">' . __( 'Fill with example code', 'creame-whatsapp-me' ) . '</a>' .
+						'</label></p>' .
+						'<textarea id="joinchat_custom_css" name="joinchat[custom_css]" rows="3" class="regular-text autofill" placeholder="' . esc_attr__( 'Your custom CSS...', 'creame-whatsapp-me' ) . '">' . esc_textarea( $value ) . '</textarea>' .
+						'<p class="description">' .
+						sprintf( /* translators: %s: CSS tricks link. */
 							__( 'You can find examples and more tricks <a href="%s" target="_blank">here</a>.', 'creame-whatsapp-me' ),
 							esc_url( Joinchat_Util::link( 'css', 'help' ) )
-						) . '</label></p>' .
-						'<textarea id="joinchat_custom_css" name="joinchat[custom_css]" rows="3" class="regular-text autofill" placeholder="">' . esc_textarea( $value ) . '</textarea>' .
-						'</fieldset>';
+						) . '</p></fieldset>';
 					break;
 
 				case 'clear':
@@ -767,10 +764,31 @@ class Joinchat_Admin_Page {
 			wp_enqueue_style( 'intl-tel-input' );
 		}
 
+		$example_css = <<<CSS
+/* Joinchat default styles
+z-index: 9000;   put above or below other objects
+--s: 60px;       button size
+--bottom: 20px;  bottom separation (mobile 6px)
+--sep: 20px;     right/left separation (mobile 6px)
+--header: 70px;  chatbox header height (mobile 55px)
+*/
+.joinchat {
+	/* css rules */
+}
+
+/* Joinchat mobile styles */
+@media (max-width: 480px), (orientation: landscape) and (max-width: 767px) {
+	.joinchat {
+		/* mobile rules */
+	}
+}
+CSS;
+
 		// Enqueue scripts.
 		$config = array(
-			'home'    => home_url(),
-			'example' => __( 'is an example, double click to use it', 'creame-whatsapp-me' ),
+			'home'        => home_url(),
+			'example'     => __( 'is an example, double click to use it', 'creame-whatsapp-me' ),
+			'example_css' => $example_css,
 		);
 
 		wp_deregister_script( $handle );
@@ -802,6 +820,7 @@ class Joinchat_Admin_Page {
 	 * Custom admin header with Joinchat logo
 	 *
 	 * @since 5.0.0
+	 * @since 5.0.12 Added action 'joinchat_admin_header'.
 	 * @return void
 	 */
 	public function admin_header() {
@@ -809,6 +828,7 @@ class Joinchat_Admin_Page {
 		<div id="jcadminbar">
 			<div class="joinchat-header">
 				<h1><img src="<?php echo esc_url( plugin_dir_url( JOINCHAT_FILE ) . '/admin/img/joinchat.svg' ); ?>" width="159" height="40" alt="Joinchat"></h1>
+				<?php do_action( 'joinchat_admin_header' ); ?>
 			</div>
 		</div>
 		<?php
